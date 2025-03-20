@@ -1,0 +1,7 @@
+5				
+6	+48.248853	+11.560983	447	
+000_4	+47.598928	+10.412847	898	iPhone SE, iPhone SE (1st generation) back camera 4.15mm f/2.2, Multi-Segment, Programmautomatik, Lichtwert: 13.7, ISO: 25, f: 2.2, t: 1/699, F: 29 mm
+1	+47.653918	+10.605513	855	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 14.0, ISO: 200, f: 10.0, t: 1/320, F: 23.0 mm
+2	+47.5981	+10.407	914.54	iPhone SE
+3				
+4	+47.598928	+10.412847	898	iPhone SE, iPhone SE (1st generation) back camera 4.15mm f/2.2, Multi-Segment, Programmautomatik, Lichtwert: 13.7, ISO: 25, f: 2.2, t: 1/699, F: 29 mm
