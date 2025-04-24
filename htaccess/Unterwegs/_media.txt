@@ -4,4 +4,3 @@ $$$Kein_Back_Button_auf_oberster_Ebene$$$
 $$$UrlBilder$$$	https://unterwegs.de.cool/htaccess/Unterwegs/
 $$$UrlVideos$$$	https://unterwegs.de.cool/htaccess/Unterwegs/
 $$$VerzVideos$$$	github/Medien/Unterwegs/Unterwegs/
-MpCkU_M50_4901	In der barocken Klosterkirche Sießen bei Bad Saulgau	Klosterkirche Sießen	32	
