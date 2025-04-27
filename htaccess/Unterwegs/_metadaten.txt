@@ -10,3 +10,6 @@ QnNhB_iPh16e_4386	+48.992414	+10.505075	461.3126338	iPhone 16e, iPhone 16e back 
 QnWjV_iPh16e_8501	+48.99539	+10.49269	0	iPhone 16e
 QqRgT_iPh16e_4387	+48.994642	+10.498486	461.4008307	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 11.3, ISO: 20, f: 1.6, t: 1/191, F: 38 mm
 QqRhR_iPh16e_4384	+48.994644	+10.498561	463.3555071	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 10.0, ISO: 32, f: 1.6, t: 1/121, F: 38 mm
+QhXrK_iPh16e_8504	+49.3667	+9.08739	0	iPhone 16e
+QiMoW_iPh16e_4392	+49.343094	+9.5246944	213.3801614	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 12.5, ISO: 20, f: 1.6, t: 1/430, F: 52 mm
+QiNhF_iPh16e_4391	+49.343117	+9.5181861	218.6455671	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.9, ISO: 25, f: 1.6, t: 1/1397, F: 52 mm
