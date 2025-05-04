@@ -56,7 +56,6 @@ OzYaH_E400_0529				Canon EOS 400D DIGITAL, EF-S18-55mm f/3.5-5.6 IS, Mittenbeton
 OzYbI_E400_0528				Canon EOS 400D DIGITAL, EF-S18-55mm f/3.5-5.6 IS, Mittenbetont, Programmautomatik, Lichtwert: 9.9, ISO: 200, f: 5.6, t: 1/60, F: 24.0 mm
 OzYtT_iPh16e_8511	+49.447914	+7.767475	240.3260035	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 14.7, ISO: 25, f: 1.6, t: 1/2506, F: 26 mm
 PdEyK_iPh16e_4406	+49.326653	+7.8753639	575.0831368	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.9, ISO: 20, f: 1.6, t: 1/1105, F: 26 mm
-PeWxH_iPh16e_4405	+49.241833	+7.8288333	549	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, ISO: 20, f: 1.0, t: 0, F: 26 mm
 PeXkH_iPh16e_4402	+49.243533	+7.8275444	541.8582907	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.4, ISO: 20, f: 1.6, t: 1/799, F: 26 mm
 PeXlT_iPh16e_4401	+49.243561	+7.8277389	542.9751949	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 9.8, ISO: 32, f: 1.6, t: 1/107, F: 52 mm
 PfIaM_iPh16e_0026	+49.2435	+7.8275		iPhone 16e
