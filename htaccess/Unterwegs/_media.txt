@@ -4,6 +4,7 @@ $$$Kein_Back_Button_auf_oberster_Ebene$$$
 $$$UrlBilder$$$	https://unterwegs.de.cool/htaccess/Unterwegs/
 $$$UrlVideos$$$	https://unterwegs.de.cool/htaccess/Unterwegs/
 $$$VerzVideos$$$	github/Medien/Unterwegs/Unterwegs/
+NvSyO_iPh16e_0033	Blick von der Citadelle Bitche	Bitche Citadelle	28	
 OkPwI_iPh16e_0031	Bei Großsteinhausen	Bei Großsteinhausen	25	
 OlAhX_iPh16e_0030	Im Klostergarten Hornbach	Klostergarten Hornbach	21	
 OlNiX_iPh16e_0029	Rohrentalweiher bei Rubenheim	Rohrentalweiher bei Rubenheim	21	
