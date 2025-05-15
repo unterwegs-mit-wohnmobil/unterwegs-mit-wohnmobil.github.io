@@ -15,3 +15,5 @@ PpIyK_iPh16e_0025	Bei Iggelbach überm Elmsteiner Tal	Bei Iggelbach	33
 PpKeI_iPh16e_0024	Bei Iggelbach überm Elmsteiner Tal	Bei Iggelbach	29	
 QhXrK_iPh16e_0023	Oberhalb von Binau am Neckar	Binau am Neckar	30	
 NgDcW_iPh16e_0035			37	
+MxBfG_iPh16e_0037			23	
+MxBgO_iPh16e_0036			24	
