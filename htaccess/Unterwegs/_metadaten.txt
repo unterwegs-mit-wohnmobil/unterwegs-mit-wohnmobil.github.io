@@ -6,3 +6,12 @@ LqWlX_iPh16e_4904	+50.520583	+8.8210861	175.1850534	iPhone 16e, iPhone 16e back 
 LwTqI_iPh16e_4903	+48.753161	+10.72445	424.2629382	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.0, ISO: 20, f: 1.6, t: 1/607, F: 26 mm
 LwTxF_iPh16e_4902	+48.753619	+10.724169	424.0396996	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.5, ISO: 20, f: 1.6, t: 1/888, F: 26 mm
 LwUbS_iPh16e_4900	+48.753883	+10.72475	428.1025381	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.1, ISO: 20, f: 1.6, t: 1/631, F: 26 mm
+KsCyA_M50_5083	+51.269645	+8.65522		Canon EOS M50, EF100-300mm f/4.5-5.6 USM, Mehrfeldmessung, Programmautomatik, Lichtwert: 12.6, ISO: 1600, f: 10.0, t: 1/1000, F: 280.0 mm
+KsCyY_M50_5081	+51.269645	+8.65522		Canon EOS M50, EF100-300mm f/4.5-5.6 USM, Mehrfeldmessung, Programmautomatik, Lichtwert: 11.7, ISO: 1600, f: 9.0, t: 1/640, F: 205.0 mm
+KsDcC_M50_5080	+51.269645	+8.65522		Canon EOS M50, EF100-300mm f/4.5-5.6 USM, Mehrfeldmessung, Programmautomatik, Lichtwert: 11.3, ISO: 1600, f: 8.0, t: 1/640, F: 100.0 mm
+KsDcS_M50_5078	+51.269645	+8.65522		Canon EOS M50, EF100-300mm f/4.5-5.6 USM, Mehrfeldmessung, Programmautomatik, Lichtwert: 12.3, ISO: 1600, f: 10.0, t: 1/800, F: 290.0 mm
+KsEuU_iPh16e_4926	+51.269644	+8.6552194	650.9170897	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 10.9, ISO: 32, f: 1.6, t: 1/235, F: 52 mm
+KsRjZ_iPh16e_4920	+51.221039	+8.61785	783.7798165	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 12.9, ISO: 20, f: 1.6, t: 1/579, F: 26 mm
+KtKsQ_iPh16e_4918	+51.118861	+8.6072417	494.9595588	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 11.7, ISO: 32, f: 1.6, t: 1/408, F: 26 mm
+LdEbJ_iPh16e_4915	+50.995261	+8.2565694	490.0275	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Spotmessung, Programmautomatik, Lichtwert: 12.5, ISO: 20, f: 1.6, t: 1/455, F: 26 mm
+LpZeQ_M50_5074	+50.800787	+8.4802867		Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Lichtwert: 2.0, ISO: 12800, f: 5.0, t: 1/20, F: 21.0 mm
