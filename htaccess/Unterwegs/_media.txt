@@ -4,5 +4,5 @@ $$$Kein_Back_Button_auf_oberster_Ebene$$$
 $$$UrlBilder$$$	https://unterwegs.de.cool/htaccess/Unterwegs/
 $$$UrlVideos$$$	https://unterwegs.de.cool/htaccess/Unterwegs/
 $$$VerzVideos$$$	github/Medien/Unterwegs/Unterwegs/
-PpIyK_iPh16e_0025	Bei Iggelbach überm Elmsteiner Tal	Bei Iggelbach	33	
 LqRbC_iPh16e_0060			17	
+KiKyC_iPh16e_0064			17	
