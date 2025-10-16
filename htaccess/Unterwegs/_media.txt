@@ -6,3 +6,5 @@ $$$UrlVideos$$$	https://unterwegs.de.cool/htaccess/Unterwegs/
 $$$VerzVideos$$$	github/Medien/Unterwegs/Unterwegs/
 LqRbC_iPh16e_0060			17	
 KiKyC_iPh16e_0064			17	
+JpInE_iPh16e_0067			22	
+JuDnM_iPh16e_0065			22	
