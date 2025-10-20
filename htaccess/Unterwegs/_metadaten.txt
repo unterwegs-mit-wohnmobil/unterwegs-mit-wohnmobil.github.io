@@ -39,3 +39,28 @@ JxRqZ_iPh16e_4960	+52.546958	+10.119525	45	iPhone 16e, iPhone 16e back camera 4.
 JyHgO_iPad9_4321	+52.355481	+9.8000167	61	iPad 9, iPad back camera 3.3mm f/2.4, Multi-Segment, Programmautomatik, Lichtwert: 7.4, ISO: 200, f: 2.4, t: 1/60, F: 31 mm
 JzOrU_iPh16e_4958	+52.362417	+9.7757222	62	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 6.3, ISO: 200, f: 1.6, t: 1/60, F: 26 mm
 JzOzY_iPh16e_4955	+52.362114	+9.7765	57	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 6.9, ISO: 125, f: 1.6, t: 1/60, F: 26 mm
+IuMdG_iPh16e_0076	+51.13889	+8.3398	0	iPhone 16e
+IvEnS_M50_5145	+51.34544	+8.282355	263.12	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 14.3, ISO: 100, f: 8.0, t: 1/320, F: 15.0 mm
+IvFbJ_M50_5144	+51.345828	+8.282445		Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 5.9, ISO: 6400, f: 5.6, t: 1/125, F: 36.0 mm
+IvFwD_M50_5141	+51.345828	+8.282445	265.32	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 5.2, ISO: 6400, f: 6.3, t: 1/60, F: 45.0 mm
+IvFwT_M50_5140	+51.345828	+8.282445	265.32	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 5.6, ISO: 6400, f: 5.6, t: 1/100, F: 31.0 mm
+IvGcP_M50_5135	+51.345828	+8.282445	265.32	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 6.3, ISO: 4000, f: 5.6, t: 1/100, F: 32.0 mm
+IvGfF_M50_5134	+51.346073	+8.2826617	271.67	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Verschlusspriorität, Lichtwert: 13.0, ISO: 200, f: 18.0, t: 1/50, F: 30.0 mm
+IvHiB_M50_5132	+51.348767	+8.2755083	256.31	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Verschlusspriorität, Lichtwert: 12.6, ISO: 200, f: 16.0, t: 1/50, F: 37.0 mm
+IzIdM_iPh16e_0074	+51.31569	+8.625	0	iPhone 16e
+IzIkC_iPh16e_4992	+51.315783	+8.6247972	632.0038156	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 12.2, ISO: 20, f: 1.6, t: 1/357, F: 26 mm
+IzOoA_M50_5130	+51.37336	+8.7225117	373.85	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Blendenpriorität, Lichtwert: 14.0, ISO: 200, f: 29.0, t: 1/40, F: 26.0 mm
+IzOsV_M50_5127	+51.373387	+8.7222367	376.56	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Verschlusspriorität, Lichtwert: 13.6, ISO: 200, f: 22.0, t: 1/50, F: 21.0 mm
+IzOuY_M50_5123	+51.373447	+8.7221217	377.04	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 13.3, ISO: 100, f: 6.3, t: 1/250, F: 17.0 mm
+IzPtP_iPh16e_0072	+51.3732	+8.7224	0	iPhone 16e
+JaWqK_M50_5121	+51.832253	+9.2129717	237.24	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Verschlusspriorität, Lichtwert: 14.6, ISO: 200, f: 29.0, t: 1/60, F: 23.0 mm
+JaWuZ_M50_5120	+51.832253	+9.2129717	237.24	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 12.0, ISO: 100, f: 5.0, t: 1/160, F: 18.0 mm
+JaWwW_M50_5119	+51.832253	+9.2129717	237.24	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Verschlusspriorität, Lichtwert: 12.9, ISO: 200, f: 14.0, t: 1/80, F: 20.0 mm
+JaXjA_M50_5115	+51.831593	+9.212375	233.5	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 5.0, ISO: 6400, f: 6.3, t: 1/50, F: 45.0 mm
+JaXlT_M50_5112	+51.831593	+9.212375	233.5	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 5.2, ISO: 6400, f: 6.3, t: 1/60, F: 42.0 mm
+JaXnR_M50_5111	+51.831593	+9.212375	233.5	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 4.6, ISO: 200, f: 6.3, t: 0.8, F: 45.0 mm
+JaXrS_M50_5109	+51.831593	+9.212375	233.5	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 5.0, ISO: 1600, f: 5.0, t: 1/20, F: 30.0 mm
+JaYaF_M50_5101	+51.831718	+9.2125	237.49	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 7.0, ISO: 200, f: 4.5, t: 1/13, F: 24.0 mm
+JbDyE_iPh16e_4983	+51.831044	+9.2132778	241.8635363	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.3, ISO: 20, f: 1.6, t: 1/760, F: 34 mm
+JeNpE_iPh16e_4980	+51.980442	+9.2541333	100.1702231	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 12.1, ISO: 20, f: 1.6, t: 1/347, F: 52 mm
+JfYrN_iPh16e_4976	+52.1063	+9.1619889	332.3163993	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 11.6, ISO: 16, f: 1.6, t: 1/179, F: 52 mm

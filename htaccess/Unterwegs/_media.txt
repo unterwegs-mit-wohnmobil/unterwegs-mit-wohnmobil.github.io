@@ -8,3 +8,6 @@ LqRbC_iPh16e_0060			17
 KiKyC_iPh16e_0064			17	
 JpInE_iPh16e_0067			22	
 JuDnM_iPh16e_0065			22	
+IuMdG_iPh16e_0076			20	
+IzIdM_iPh16e_0074			26	
+IzPtP_iPh16e_0072			20	
