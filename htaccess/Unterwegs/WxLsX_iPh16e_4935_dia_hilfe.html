@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<style> img { width:100%; height:auto; } </style>
+<title>Hilfe zur Navigation in der Diashow</title>
+</head>
+<body>
+<table border="0" width="100%">
+  <tr>
+    <td><p align="left"><a href="WxLsX_iPh16e_4935_dia.html"><big>zur&uuml;ck</big></a></p></td>
+    <td><h2 align="center">Hilfe f&uuml;r die Anzeige der Fotos der Bildergalerie</h2></td>
+    <td><p align="right">
+      <big>Koordinaten: B: +51.372722, L: +8.7949139, H: 368&nbsp;<a href="https://www.openstreetmap.org/?mlat=+51.372722&mlon=+8.7949139#map=16/+51.372722/+8.7949139"><big>OSM</big></a>&nbsp;<a href="https://bing.com/maps/default.aspx?cp=+51.372722~+8.7949139&lvl=13&sp=point.+51.372722_+8.7949139_Foto"><big>Bing</big></a><br>
+      <big>Kameradaten: iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 11.7, ISO: 32, f: 1.6, t: 1/416, F: 26 mm</big>
+    </p></td>
+  </tr>
+</table>
+<div class="container" id="myHelp">
+<img src="../../_hilfe.jpg" width="1600" height="900"  usemap="#mapLinksOben">
+<map name="mapLinksOben"><area shape="rect" coords="0,0,400,225" href="WxLsX_iPh16e_4935_dia.html">
+</div>
+<script>
+var swiper = { touchStartX: 0, touchEndX: 0, minSwipePixels: 30, detectionZone: undefined,
+swiperCallback: function() {},
+  init: function (detectionZone, callback) { swiper.swiperCallback = callback
+  detectionZone.addEventListener("touchstart", function (event) {
+    swiper.touchStartX = event.changedTouches[0].screenX; }, false);
+  detectionZone.addEventListener("touchend", function (event) {
+    swiper.touchEndX = event.changedTouches[0].screenX;
+    swiper.handleSwipeGesture(); }, false); },
+  handleSwipeGesture: function () {
+    if (swiper.touchEndX > swiper.touchStartX) { window.open("WxLsX_iPh16e_4935_dia.html", "_self", openWindowParm) }
+  swipe: function (direction, movedPixels) { var ret = {}
+    ret.direction = direction, ret.movedPixels = movedPixels,  swiper.swiperCallback(ret) } };
+var gestureZone = document.getElementById("myHelp"); swiper.init(gestureZone, function(e) { });
+</script>
+</body>
+</html>

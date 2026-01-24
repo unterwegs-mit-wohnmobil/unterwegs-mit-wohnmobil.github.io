@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<style> img { width:100%; height:auto; } </style>
+<title>Hilfe zur Navigation in der Diashow</title>
+</head>
+<body>
+<table border="0" width="100%">
+  <tr>
+    <td><p align="left"><a href="YkCdA_M50_5120.html"><big>zur&uuml;ck</big></a></p></td>
+    <td><h2 align="center">Hilfe f&uuml;r die Anzeige der Fotos der Bildergalerie</h2></td>
+    <td><p align="right">
+      <big>Koordinaten: B: +51.832253, L: +9.2129717, H: 232&nbsp;<a href="https://www.openstreetmap.org/?mlat=+51.832253&mlon=+9.2129717#map=16/+51.832253/+9.2129717"><big>OSM</big></a>&nbsp;<a href="https://bing.com/maps/default.aspx?cp=+51.832253~+9.2129717&lvl=13&sp=point.+51.832253_+9.2129717_Foto"><big>Bing</big></a><br>
+      <big>Kameradaten: Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Programmautomatik, Lichtwert: 12.0, ISO: 100, f: 5.0, t: 1/160, F: 18.0 mm</big>
+    </p></td>
+  </tr>
+</table>
+<div class="container" id="myHelp">
+<img src="../../_hilfe.jpg" width="1600" height="900"  usemap="#mapLinksOben">
+<map name="mapLinksOben"><area shape="rect" coords="0,0,400,225" href="YkCdA_M50_5120.html">
+</div>
+<script>
+var swiper = { touchStartX: 0, touchEndX: 0, minSwipePixels: 30, detectionZone: undefined,
+swiperCallback: function() {},
+  init: function (detectionZone, callback) { swiper.swiperCallback = callback
+  detectionZone.addEventListener("touchstart", function (event) {
+    swiper.touchStartX = event.changedTouches[0].screenX; }, false);
+  detectionZone.addEventListener("touchend", function (event) {
+    swiper.touchEndX = event.changedTouches[0].screenX;
+    swiper.handleSwipeGesture(); }, false); },
+  handleSwipeGesture: function () {
+    if (swiper.touchEndX > swiper.touchStartX) { window.open("YkCdA_M50_5120.html", "_self", openWindowParm) }
+  swipe: function (direction, movedPixels) { var ret = {}
+    ret.direction = direction, ret.movedPixels = movedPixels,  swiper.swiperCallback(ret) } };
+var gestureZone = document.getElementById("myHelp"); swiper.init(gestureZone, function(e) { });
+</script>
+</body>
+</html>
