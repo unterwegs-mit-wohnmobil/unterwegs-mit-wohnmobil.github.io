@@ -1,0 +1,127 @@
+/* -----------------------------
+   Grundlayout
+----------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* -----------------------------
+   Galerie
+----------------------------- */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 8.33333%;
+
+  /* Scroll-Offset für fixe Header */
+  scroll-margin-top: 90px;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 2400px) { .responsive { width: 9.09%; } }
+@media (max-width: 2250px) { .responsive { width: 10%; } }
+@media (max-width: 2080px) { .responsive { width: 11.11%; } }
+@media (max-width: 1920px) { .responsive { width: 12.5%; } }
+@media (max-width: 1770px) { .responsive { width: 14.28%; } }
+@media (max-width: 1600px) { .responsive { width: 16.66%; } }
+@media (max-width: 1400px) { .responsive { width: 20%; } }
+@media (max-width: 1200px) { .responsive { width: 25%; } }
+@media (max-width: 950px)  { .responsive { width: 33.33%; } }
+@media (max-width: 700px)  { .responsive { width: 50%; } }
+@media (max-width: 500px)  { .responsive { width: 100%; } }
+
+.gallery {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.gallery:hover {
+  border-color: #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* -----------------------------
+   Dezente Hervorhebung der Ziel-Kachel mit Animation
+----------------------------- */
+@keyframes highlight {
+  0%   { background-color: #fff8e1; outline-color: #ffcc66; }
+  50%  { background-color: #fff0b3; outline-color: #ffbb33; }
+  100% { background-color: #fff8e1; outline-color: #ffcc66; }
+}
+
+.responsive:target {
+  outline: 2px solid #ffcc66;
+  background: #fff8e1;
+
+  animation: highlight 1.5s ease-in-out;
+}
+
+/* -----------------------------
+   Clearfix
+----------------------------- */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -----------------------------
+   Videos
+----------------------------- */
+video {
+  width: 100%;
+  max-height: 100vh;
+  background: #000;
+}
+
+/* -----------------------------
+   Header-Bar auf Videoseiten (sticky)
+----------------------------- */
+.header-bar {
+  position: sticky;       /* bleibt oben sichtbar */
+  top: 0;                 /* Abstand zum oberen Rand */
+  z-index: 1000;          /* liegt über Video */
+  background-color: #fff; /* Hintergrund notwendig */
+  border-bottom: 1px solid #ccc; /* optional schöner Trenner */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  gap: 10px;
+}
+
+.header-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0066cc;
+  white-space: nowrap;
+}
+
+.header-bar a:hover {
+  text-decoration: underline;
+}
+
+.header-bar .title {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
