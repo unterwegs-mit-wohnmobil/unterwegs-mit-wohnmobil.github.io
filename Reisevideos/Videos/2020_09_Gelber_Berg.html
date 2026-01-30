@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Gunzenhausen - Gelber Berg 2020</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="header-bar">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">Gunzenhausen - Gelber Berg 2020</div>
+  
+  <a href="../index.html#2020_09_Gelber_Berg">↺ Zurück zum Video</a>
+</div>
+
+<video id="videoPlayer" controls autoplay playsinline >
+  <source src="2020_09_Gelber_Berg.mp4" type="video/mp4">
+  Video "2020_09_Gelber_Berg.mp4" nicht verfügbar.
+</video>
+
+<script>
+  const video = document.getElementById('videoPlayer');
+  const hint  = document.getElementById('muteHint');
+  if (video && hint) {
+      if (!video.muted) {
+          hint.style.display = 'none';
+      }
+      hint.onclick = function() {
+          video.muted = false;
+          video.play();
+          hint.style.display = 'none';
+      }
+  }
+</script>
+
+</body>
+</html>

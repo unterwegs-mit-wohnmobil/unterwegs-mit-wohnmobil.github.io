@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Hannover und Elbe 2017</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="header-bar">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">Hannover und Elbe 2017</div>
+  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
+  <a href="../index.html#2017_05_Hannover_Elbe">↺ Zurück zum Video</a>
+</div>
+
+<video id="videoPlayer" controls autoplay playsinline muted>
+  <source src="2017_05_Hannover_Elbe.mp4" type="video/mp4">
+  Video "2017_05_Hannover_Elbe.mp4" nicht verfügbar.
+</video>
+
+<script>
+  const video = document.getElementById('videoPlayer');
+  const hint  = document.getElementById('muteHint');
+  if (video && hint) {
+      if (!video.muted) {
+          hint.style.display = 'none';
+      }
+      hint.onclick = function() {
+          video.muted = false;
+          video.play();
+          hint.style.display = 'none';
+      }
+  }
+</script>
+
+</body>
+</html>
