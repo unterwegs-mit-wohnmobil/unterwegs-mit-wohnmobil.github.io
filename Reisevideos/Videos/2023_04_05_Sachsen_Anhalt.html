@@ -8,15 +8,31 @@
 <body>
 
 <div class="header-bar">
-  <a class="nav-left" href="../index.html">← Übersicht</a>
+  <a href="../index.html">← Übersicht</a>
   <div class="title">Sachsen-Anhalt Frühjahr 2023</div>
-  <a class="nav-right" href="../index.html#2023_04_05_Sachsen_Anhalt">↺ Zurück zum Video</a>
+  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
+  <a href="../index.html#2023_04_05_Sachsen_Anhalt">↺ Zurück zum Video</a>
 </div>
 
-<video controls autoplay playsinline muted>
+<video id="videoPlayer" controls autoplay playsinline muted>
   <source src="2023_04_05_Sachsen_Anhalt.mp4" type="video/mp4">
   Video "2023_04_05_Sachsen_Anhalt.mp4" nicht verfügbar.
 </video>
+
+<script>
+  const video = document.getElementById('videoPlayer');
+  const hint  = document.getElementById('muteHint');
+  if (video && hint) {
+      if (!video.muted) {
+          hint.style.display = 'none';
+      }
+      hint.onclick = function() {
+          video.muted = false;
+          video.play();
+          hint.style.display = 'none';
+      }
+  }
+</script>
 
 </body>
 </html>

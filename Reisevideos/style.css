@@ -1,6 +1,6 @@
-/* -----------------------------
+/* =====================================================
    Grundlayout
------------------------------ */
+===================================================== */
 * {
   box-sizing: border-box;
 }
@@ -16,19 +16,17 @@ h2 {
   margin: 20px 0;
 }
 
-/* -----------------------------
-   Galerie
------------------------------ */
+/* =====================================================
+   Galerie / Index
+===================================================== */
 .responsive {
   padding: 0 6px;
   float: left;
   width: 8.33333%;
-
-  /* Scroll-Offset für fixe Header */
-  scroll-margin-top: 90px;
+  scroll-margin-top: 90px; /* Offset für Sticky Header */
 }
 
-/* Responsive Breakpoints */
+/* -------- Responsive Breakpoints -------- */
 @media (max-width: 2400px) { .responsive { width: 9.09%; } }
 @media (max-width: 2250px) { .responsive { width: 10%; } }
 @media (max-width: 2080px) { .responsive { width: 11.11%; } }
@@ -41,6 +39,7 @@ h2 {
 @media (max-width: 700px)  { .responsive { width: 50%; } }
 @media (max-width: 500px)  { .responsive { width: 100%; } }
 
+/* -------- Galerie-Kacheln -------- */
 .gallery {
   border: 1px solid #ccc;
   padding: 5px;
@@ -56,9 +55,9 @@ h2 {
   display: block;
 }
 
-/* -----------------------------
-   Dezente Hervorhebung der Ziel-Kachel mit Animation
------------------------------ */
+/* =====================================================
+   Ziel-Kachel-Hervorhebung
+===================================================== */
 @keyframes highlight {
   0%   { background-color: #fff8e1; outline-color: #ffcc66; }
   50%  { background-color: #fff0b3; outline-color: #ffbb33; }
@@ -68,42 +67,40 @@ h2 {
 .responsive:target {
   outline: 2px solid #ffcc66;
   background: #fff8e1;
-
   animation: highlight 1.5s ease-in-out;
 }
 
-/* -----------------------------
+/* =====================================================
    Clearfix
------------------------------ */
+===================================================== */
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* -----------------------------
-   Videos
------------------------------ */
+/* =====================================================
+   Video
+===================================================== */
 video {
   width: 100%;
   max-height: 100vh;
   background: #000;
 }
 
-/* -----------------------------
-   Header-Bar auf Videoseiten (sticky)
------------------------------ */
+/* =====================================================
+   Header-Bar (Videoseiten)
+===================================================== */
 .header-bar {
-  position: sticky;       /* bleibt oben sichtbar */
-  top: 0;                 /* Abstand zum oberen Rand */
-  z-index: 1000;          /* liegt über Video */
-  background-color: #fff; /* Hintergrund notwendig */
-  border-bottom: 1px solid #ccc; /* optional schöner Trenner */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 8px 10px;
   gap: 10px;
+  padding: 8px 10px;
 }
 
 .header-bar a {
@@ -117,6 +114,7 @@ video {
   text-decoration: underline;
 }
 
+/* -------- Titel -------- */
 .header-bar .title {
   flex: 1;
   text-align: center;
@@ -124,4 +122,14 @@ video {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* -------- Hinweis Ton -------- */
+.header-bar .mute-hint {
+  font-size: 0.9em;
+  color: #cc0000;
+  font-weight: bold;
+  white-space: nowrap;
+  margin: 0 8px;
+  cursor: pointer;
 }
