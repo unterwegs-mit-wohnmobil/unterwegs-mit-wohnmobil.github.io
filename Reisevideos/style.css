@@ -1,54 +1,173 @@
-* { box-sizing: border-box; }
-
-html {
-  scroll-padding-top: 60px;
+/* =====================================================
+   Grundlayout
+===================================================== */
+* {
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: #fff;
+  margin: 0;
+  padding: 0;
 }
 
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* =====================================================
+   Galerie / Index
+===================================================== */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 8.33333%;
+  scroll-margin-top: 90px; /* Offset für Sticky Header */
+}
+
+/* -------- Responsive Breakpoints (fein) -------- */
+@media (max-width: 2400px) { .responsive { width: 9.09%; } }
+@media (max-width: 2250px) { .responsive { width: 10%; } }
+@media (max-width: 2080px) { .responsive { width: 11.11%; } }
+@media (max-width: 1920px) { .responsive { width: 12.5%; } }
+@media (max-width: 1770px) { .responsive { width: 14.28%; } }
+@media (max-width: 1600px) { .responsive { width: 16.66%; } }
+@media (max-width: 1400px) { .responsive { width: 20%; } }
+@media (max-width: 1200px) { .responsive { width: 25%; } }
+@media (max-width: 950px)  { .responsive { width: 33.33%; } }
+@media (max-width: 700px)  { .responsive { width: 50%; } }
+@media (max-width: 500px)  { .responsive { width: 100%; } }
+
+/* -------- Galerie-Kacheln -------- */
+.gallery {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.gallery:hover {
+  border-color: #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =====================================================
+   Ziel-Kachel-Hervorhebung
+===================================================== */
+@keyframes highlight {
+  0%   { background-color: #fff8e1; outline-color: #ffcc66; }
+  50%  { background-color: #fff0b3; outline-color: #ffbb33; }
+  100% { background-color: #fff8e1; outline-color: #ffcc66; }
+}
+
+.responsive:target {
+  outline: 2px solid #ffcc66;
+  background: #fff8e1;
+  animation: highlight 1.5s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* =====================================================
+   Clearfix
+===================================================== */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* =====================================================
+   Video
+===================================================== */
+video {
+  width: 100%;
+  max-height: 100vh;
+  background: #000;
+}
+
+/* =====================================================
+   Header-Bar (Videoseiten)
+===================================================== */
+.header-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  height: 50px;
+}
+
+.header-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0066cc;
+  white-space: nowrap;
+}
+
+.header-bar a:hover {
+  text-decoration: underline;
+}
+
+/* -------- Titel -------- */
+.header-bar .title {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =====================================================
+   Header-Bar Index-Seiten (einzeilig, inkl. Hilfe-Link)
+===================================================== */
 .topbar {
   position: sticky;
   top: 0;
-  z-index: 10;
-  background: #f8f8f8;
+  z-index: 1000;
+  background: #fff;
   border-bottom: 1px solid #ccc;
-  padding: 8px 12px;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  height: 50px; /* Einzeilig */
 }
 
-.topbar .left { text-align: left; }
-.topbar .center { text-align: center; font-weight: bold; }
-.topbar .right { text-align: right; }
-
-main {
-  padding: 10px;
+.topbar .center {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.tile {
-  float: left;
-  padding: 6px;
-  width: 12.5%;
+.topbar .midright {
+  position: relative;
+  margin-right: 10px; /* halbrechts für Hilfe-Link */
 }
 
-.tile img {
-  width: 100%;
-  border: 1px solid #ccc;
+.topbar .right {
+  margin-left: auto; /* Autoplay-Link rechts */
 }
 
-.tile:target img {
-  outline: 3px solid rgba(0,0,0,0.25);
+.topbar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0066cc;
 }
 
-video {
-  width: 100%;
-  max-height: calc(100vh - 70px);
+.topbar a:hover {
+  text-decoration: underline;
 }
-@media (max-width: 1200px) { .tile { width: 25%; } }
-@media (max-width: 800px)  { .tile { width: 50%; } }
-@media (max-width: 500px)  { .tile { width: 100%; } }
