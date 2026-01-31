@@ -7,32 +7,19 @@
 </head>
 <body>
 
-<div class="header-bar">
-  <a href="../index.html">← Übersicht</a>
-  <div class="title">Schweden 2014</div>
-  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
-  <a href="../index.html#2014_05_Schweden">↺ Zurück zum Video</a>
-</div>
+<header class="topbar">
+  <div class="left">
+    <a href="../index.html#2014_05_Schweden">← zurück</a>
+  </div>
+  <div class="center">Schweden 2014</div>
+</header>
 
-<video id="videoPlayer" controls autoplay playsinline muted>
-  <source src="2014_05_Schweden.mp4" type="video/mp4">
-  Video "2014_05_Schweden.mp4" nicht verfügbar.
-</video>
-
-<script>
-  const video = document.getElementById('videoPlayer');
-  const hint  = document.getElementById('muteHint');
-  if (video && hint) {
-      if (!video.muted) {
-          hint.style.display = 'none';
-      }
-      hint.onclick = function() {
-          video.muted = false;
-          video.play();
-          hint.style.display = 'none';
-      }
-  }
-</script>
+<main>
+  <video autoplay  controls playsinline>
+    <source src="2014_05_Schweden.mp4" type="video/mp4">
+    Video "2014_05_Schweden.mp4" nicht verfügbar.
+  </video>
+</main>
 
 </body>
 </html>

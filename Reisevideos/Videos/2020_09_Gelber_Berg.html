@@ -7,32 +7,19 @@
 </head>
 <body>
 
-<div class="header-bar">
-  <a href="../index.html">← Übersicht</a>
-  <div class="title">Gunzenhausen - Gelber Berg 2020</div>
-  
-  <a href="../index.html#2020_09_Gelber_Berg">↺ Zurück zum Video</a>
-</div>
+<header class="topbar">
+  <div class="left">
+    <a href="../index.html#2020_09_Gelber_Berg">← zurück</a>
+  </div>
+  <div class="center">Gunzenhausen - Gelber Berg 2020</div>
+</header>
 
-<video id="videoPlayer" controls autoplay playsinline >
-  <source src="2020_09_Gelber_Berg.mp4" type="video/mp4">
-  Video "2020_09_Gelber_Berg.mp4" nicht verfügbar.
-</video>
-
-<script>
-  const video = document.getElementById('videoPlayer');
-  const hint  = document.getElementById('muteHint');
-  if (video && hint) {
-      if (!video.muted) {
-          hint.style.display = 'none';
-      }
-      hint.onclick = function() {
-          video.muted = false;
-          video.play();
-          hint.style.display = 'none';
-      }
-  }
-</script>
+<main>
+  <video autoplay  controls playsinline>
+    <source src="2020_09_Gelber_Berg.mp4" type="video/mp4">
+    Video "2020_09_Gelber_Berg.mp4" nicht verfügbar.
+  </video>
+</main>
 
 </body>
 </html>

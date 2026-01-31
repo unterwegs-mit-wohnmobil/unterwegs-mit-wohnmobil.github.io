@@ -7,32 +7,19 @@
 </head>
 <body>
 
-<div class="header-bar">
-  <a href="../index.html">← Übersicht</a>
-  <div class="title">Regensburg und Neuburg an der Donau 2017</div>
-  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
-  <a href="../index.html#2017_04_Regensburg_Neuburg_an_der_Donau">↺ Zurück zum Video</a>
-</div>
+<header class="topbar">
+  <div class="left">
+    <a href="../index.html#2017_04_Regensburg_Neuburg_an_der_Donau">← zurück</a>
+  </div>
+  <div class="center">Regensburg und Neuburg an der Donau 2017</div>
+</header>
 
-<video id="videoPlayer" controls autoplay playsinline muted>
-  <source src="2017_04_Regensburg_Neuburg_an_der_Donau.mp4" type="video/mp4">
-  Video "2017_04_Regensburg_Neuburg_an_der_Donau.mp4" nicht verfügbar.
-</video>
-
-<script>
-  const video = document.getElementById('videoPlayer');
-  const hint  = document.getElementById('muteHint');
-  if (video && hint) {
-      if (!video.muted) {
-          hint.style.display = 'none';
-      }
-      hint.onclick = function() {
-          video.muted = false;
-          video.play();
-          hint.style.display = 'none';
-      }
-  }
-</script>
+<main>
+  <video autoplay  controls playsinline>
+    <source src="2017_04_Regensburg_Neuburg_an_der_Donau.mp4" type="video/mp4">
+    Video "2017_04_Regensburg_Neuburg_an_der_Donau.mp4" nicht verfügbar.
+  </video>
+</main>
 
 </body>
 </html>

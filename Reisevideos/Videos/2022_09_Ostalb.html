@@ -7,32 +7,19 @@
 </head>
 <body>
 
-<div class="header-bar">
-  <a href="../index.html">← Übersicht</a>
-  <div class="title">Rund ums Ries Herbst 2022</div>
-  
-  <a href="../index.html#2022_09_Ostalb">↺ Zurück zum Video</a>
-</div>
+<header class="topbar">
+  <div class="left">
+    <a href="../index.html#2022_09_Ostalb">← zurück</a>
+  </div>
+  <div class="center">Rund ums Ries Herbst 2022</div>
+</header>
 
-<video id="videoPlayer" controls autoplay playsinline >
-  <source src="2022_09_Ostalb.mp4" type="video/mp4">
-  Video "2022_09_Ostalb.mp4" nicht verfügbar.
-</video>
-
-<script>
-  const video = document.getElementById('videoPlayer');
-  const hint  = document.getElementById('muteHint');
-  if (video && hint) {
-      if (!video.muted) {
-          hint.style.display = 'none';
-      }
-      hint.onclick = function() {
-          video.muted = false;
-          video.play();
-          hint.style.display = 'none';
-      }
-  }
-</script>
+<main>
+  <video autoplay  controls playsinline>
+    <source src="2022_09_Ostalb.mp4" type="video/mp4">
+    Video "2022_09_Ostalb.mp4" nicht verfügbar.
+  </video>
+</main>
 
 </body>
 </html>

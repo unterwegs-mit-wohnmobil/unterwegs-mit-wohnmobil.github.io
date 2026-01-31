@@ -7,32 +7,19 @@
 </head>
 <body>
 
-<div class="header-bar">
-  <a href="../index.html">← Übersicht</a>
-  <div class="title">Odenwald Steigerwald Haßberge Frühjahr 2024</div>
-  
-  <a href="../index.html#2024_04_05_Odenwald_Steigerwald_Hassberge">↺ Zurück zum Video</a>
-</div>
+<header class="topbar">
+  <div class="left">
+    <a href="../index.html#2024_04_05_Odenwald_Steigerwald_Hassberge">← zurück</a>
+  </div>
+  <div class="center">Odenwald Steigerwald Haßberge Frühjahr 2024</div>
+</header>
 
-<video id="videoPlayer" controls autoplay playsinline >
-  <source src="2024_04_05_Odenwald_Steigerwald_Hassberge.mp4" type="video/mp4">
-  Video "2024_04_05_Odenwald_Steigerwald_Hassberge.mp4" nicht verfügbar.
-</video>
-
-<script>
-  const video = document.getElementById('videoPlayer');
-  const hint  = document.getElementById('muteHint');
-  if (video && hint) {
-      if (!video.muted) {
-          hint.style.display = 'none';
-      }
-      hint.onclick = function() {
-          video.muted = false;
-          video.play();
-          hint.style.display = 'none';
-      }
-  }
-</script>
+<main>
+  <video autoplay  controls playsinline>
+    <source src="2024_04_05_Odenwald_Steigerwald_Hassberge.mp4" type="video/mp4">
+    Video "2024_04_05_Odenwald_Steigerwald_Hassberge.mp4" nicht verfügbar.
+  </video>
+</main>
 
 </body>
 </html>

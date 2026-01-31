@@ -1,29 +1,53 @@
-/* =====================================================
-   Grundlayout
-===================================================== */
-* {
-  box-sizing: border-box;
+* { box-sizing: border-box; }
+
+html {
+  scroll-padding-top: 60px;
 }
 
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
 }
 
-h2 {
-  text-align: center;
-  margin: 20px 0;
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 12px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
 }
 
-/* =====================================================
-   Galerie / Index
-===================================================== */
-.responsive {
-  padding: 0 6px;
+.topbar .left { text-align: left; }
+.topbar .center { text-align: center; font-weight: bold; }
+.topbar .right { text-align: right; }
+
+main {
+  padding: 10px;
+}
+
+.tile {
   float: left;
-  width: 8.33333%;
-  scroll-margin-top: 90px; /* Offset für Sticky Header */
+  padding: 6px;
+  width: 12.5%;
+}
+
+.tile img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.tile:target img {
+  outline: 3px solid rgba(0,0,0,0.25);
+}
+
+video {
+  width: 100%;
+  max-height: calc(100vh - 70px);
 }
 
 /* -------- Responsive Breakpoints -------- */
@@ -38,98 +62,3 @@ h2 {
 @media (max-width: 950px)  { .responsive { width: 33.33%; } }
 @media (max-width: 700px)  { .responsive { width: 50%; } }
 @media (max-width: 500px)  { .responsive { width: 100%; } }
-
-/* -------- Galerie-Kacheln -------- */
-.gallery {
-  border: 1px solid #ccc;
-  padding: 5px;
-}
-
-.gallery:hover {
-  border-color: #777;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* =====================================================
-   Ziel-Kachel-Hervorhebung
-===================================================== */
-@keyframes highlight {
-  0%   { background-color: #fff8e1; outline-color: #ffcc66; }
-  50%  { background-color: #fff0b3; outline-color: #ffbb33; }
-  100% { background-color: #fff8e1; outline-color: #ffcc66; }
-}
-
-.responsive:target {
-  outline: 2px solid #ffcc66;
-  background: #fff8e1;
-  animation: highlight 1.5s ease-in-out;
-}
-
-/* =====================================================
-   Clearfix
-===================================================== */
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* =====================================================
-   Video
-===================================================== */
-video {
-  width: 100%;
-  max-height: 100vh;
-  background: #000;
-}
-
-/* =====================================================
-   Header-Bar (Videoseiten)
-===================================================== */
-.header-bar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
-}
-
-.header-bar a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #0066cc;
-  white-space: nowrap;
-}
-
-.header-bar a:hover {
-  text-decoration: underline;
-}
-
-/* -------- Titel -------- */
-.header-bar .title {
-  flex: 1;
-  text-align: center;
-  font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* -------- Hinweis Ton -------- */
-.header-bar .mute-hint {
-  font-size: 0.9em;
-  color: #cc0000;
-  font-weight: bold;
-  white-space: nowrap;
-  margin: 0 8px;
-  cursor: pointer;
-}

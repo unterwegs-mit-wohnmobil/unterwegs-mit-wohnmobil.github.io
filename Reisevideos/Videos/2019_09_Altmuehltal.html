@@ -7,32 +7,19 @@
 </head>
 <body>
 
-<div class="header-bar">
-  <a href="../index.html">← Übersicht</a>
-  <div class="title">Altmühltal Herbst 2019</div>
-  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
-  <a href="../index.html#2019_09_Altmuehltal">↺ Zurück zum Video</a>
-</div>
+<header class="topbar">
+  <div class="left">
+    <a href="../index.html#2019_09_Altmuehltal">← zurück</a>
+  </div>
+  <div class="center">Altmühltal Herbst 2019</div>
+</header>
 
-<video id="videoPlayer" controls autoplay playsinline muted>
-  <source src="2019_09_Altmuehltal.mp4" type="video/mp4">
-  Video "2019_09_Altmuehltal.mp4" nicht verfügbar.
-</video>
-
-<script>
-  const video = document.getElementById('videoPlayer');
-  const hint  = document.getElementById('muteHint');
-  if (video && hint) {
-      if (!video.muted) {
-          hint.style.display = 'none';
-      }
-      hint.onclick = function() {
-          video.muted = false;
-          video.play();
-          hint.style.display = 'none';
-      }
-  }
-</script>
+<main>
+  <video autoplay  controls playsinline>
+    <source src="2019_09_Altmuehltal.mp4" type="video/mp4">
+    Video "2019_09_Altmuehltal.mp4" nicht verfügbar.
+  </video>
+</main>
 
 </body>
 </html>
