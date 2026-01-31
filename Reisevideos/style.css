@@ -49,16 +49,6 @@ video {
   width: 100%;
   max-height: calc(100vh - 70px);
 }
-
-/* -------- Responsive Breakpoints -------- */
-@media (max-width: 2400px) { .responsive { width: 9.09%; } }
-@media (max-width: 2250px) { .responsive { width: 10%; } }
-@media (max-width: 2080px) { .responsive { width: 11.11%; } }
-@media (max-width: 1920px) { .responsive { width: 12.5%; } }
-@media (max-width: 1770px) { .responsive { width: 14.28%; } }
-@media (max-width: 1600px) { .responsive { width: 16.66%; } }
-@media (max-width: 1400px) { .responsive { width: 20%; } }
-@media (max-width: 1200px) { .responsive { width: 25%; } }
-@media (max-width: 950px)  { .responsive { width: 33.33%; } }
-@media (max-width: 700px)  { .responsive { width: 50%; } }
-@media (max-width: 500px)  { .responsive { width: 100%; } }
+@media (max-width: 1200px) { .tile { width: 25%; } }
+@media (max-width: 800px)  { .tile { width: 50%; } }
+@media (max-width: 500px)  { .tile { width: 100%; } }
