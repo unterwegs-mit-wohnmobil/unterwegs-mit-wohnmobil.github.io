@@ -9,6 +9,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  padding-top: 60px; /* Höhe des fixed Headers */
 }
 
 h2 {
@@ -23,10 +24,10 @@ h2 {
   padding: 0 6px;
   float: left;
   width: 8.33333%;
-  scroll-margin-top: 90px; /* Offset für Sticky Header */
+  scroll-margin-top: 90px; /* Offset für Header */
 }
 
-/* -------- Responsive Breakpoints -------- */
+/* -------- Responsive Breakpoints für Galerie -------- */
 @media (max-width: 2400px) { .responsive { width: 9.09%; } }
 @media (max-width: 2250px) { .responsive { width: 10%; } }
 @media (max-width: 2080px) { .responsive { width: 11.11%; } }
@@ -89,54 +90,57 @@ video {
 }
 
 /* =====================================================
-   Header-Bar (Videoseiten)
+   Header-Bar (alle Seiten)
 ===================================================== */
 .header-bar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 8px 10px;
+  padding: 10px 15px;
+  background: #fff;
+  border-bottom: 1px solid #ccc; /* Strich auf Index/Hilfe */
 }
 
+/* Kein Strich auf Videoseiten */
+.header-bar.video-page {
+  border-bottom: none;
+}
+
+/* Links / Buttons */
 .header-bar a {
   text-decoration: none;
   font-weight: bold;
   color: #0066cc;
   white-space: nowrap;
+  transition: color 0.3s;
 }
 
 .header-bar a:hover {
+  color: #004999;
   text-decoration: underline;
 }
 
-/* -------- Titel -------- */
-.header-bar .title {
+/* Titel */
+.header-bar .title,
+.header-bar .center {
   flex: 1;
   text-align: center;
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.5em; /* Schriftgröße größer */
+  font-size: clamp(18px, 2.5vw, 24px);
 }
 
-/* -------- Hinweis Ton -------- */
-.header-bar .mute-hint {
-  font-size: 0.9em;
-  color: #cc0000;
-  font-weight: bold;
-  white-space: nowrap;
-  margin: 0 8px;
-  cursor: pointer;
-}
-/* Header-Bar Buttons ohne Hintergrund */
+/* Hilfebutton / Togglebutton / Hinweis */
 .header-bar .help-btn,
-.header-bar .toggle-btn {
+.header-bar .toggle-btn,
+.header-bar .mute-hint {
   font-size: 0.9em;
   padding: 4px 8px;
   background: transparent;   /* kein Hintergrund */
@@ -144,32 +148,36 @@ video {
   border-radius: 4px;
   text-decoration: none;
   white-space: nowrap;
+  margin-left: 6px;
+  cursor: pointer;
   transition: color 0.3s;
-  margin-left: 6px;          /* Abstand zwischen den Buttons */
 }
 
 .header-bar .help-btn:hover,
 .header-bar .toggle-btn:hover {
   color: #004999;
 }
-/* Main Content - responsive */
+
+/* =====================================================
+   Main Content
+===================================================== */
 main {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  font-size: clamp(16px, 2vw, 20px); /* Text responsiv zwischen 16px und 20px */
-  padding: 0 15px; /* Abstand zum Rand */
-  max-width: 900px; /* Lesebreite begrenzen */
-  margin: 0 auto; /* Zentrieren bei großen Bildschirmen */
+  font-size: clamp(16px, 2vw, 20px);
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
 }
 
 main h2 {
-  font-size: clamp(22px, 4vw, 32px); /* Überschrift responsiv */
+  font-size: clamp(22px, 4vw, 32px);
   text-align: center;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 main ul {
-  padding-left: 1.2em; /* Einzug der Liste */
+  padding-left: 1.2em;
   margin-bottom: 1em;
 }
 
@@ -177,17 +185,33 @@ main li {
   margin-bottom: 0.5em;
 }
 
-/* Alle Bilder im Main-Bereich responsiv */
+/* =====================================================
+   Bilder im Main-Bereich
+===================================================== */
 main img {
-  max-width: 100%;    /* Bild passt sich der Breite des Containers an */
-  height: auto;       /* Höhe bleibt proportional */
-  display: block;     /* Kein zusätzlicher Inline-Abstand */
-  margin: 15px 0;     /* Abstand ober- und unterhalb des Bildes */
-  border-radius: 4px; /* optional: leichte abgerundete Ecken */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: leichter Schatten */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* Optional: Links im Main-Bereich */
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* =====================================================
+   Links
+===================================================== */
 main a {
   color: #0066cc;
   text-decoration: none;
@@ -195,4 +219,23 @@ main a {
 
 main a:hover {
   text-decoration: underline;
+}
+
+/* =====================================================
+   Kleine Smartphones
+===================================================== */
+@media (max-width: 500px) {
+  main {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .header-bar .title,
+  .header-bar .center {
+    font-size: 18px;
+  }
+
+  figure {
+    margin: 15px 0;
+  }
 }
