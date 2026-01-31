@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Westallgäu und Gschnaidt 2017</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="header-bar">
+  <a href="../index_muted.html">← Übersicht</a>
+  <div class="title">Westallgäu und Gschnaidt 2017</div>
+  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
+  <a href="../index_muted.html#2017_09_Westallgaeu_Gschnaidt">↺ Zurück zum Video</a>
+</div>
+
+<video id="videoPlayer" controls autoplay playsinline muted>
+  <source src="2017_09_Westallgaeu_Gschnaidt.mp4" type="video/mp4">
+  Video "2017_09_Westallgaeu_Gschnaidt.mp4" nicht verfügbar.
+</video>
+
+<script>
+  const video = document.getElementById('videoPlayer');
+  const hint  = document.getElementById('muteHint');
+  if (video && hint) {
+      if (!video.muted) {
+          hint.style.display = 'none';
+      }
+      hint.onclick = function() {
+          video.muted = false;
+          video.play();
+          hint.style.display = 'none';
+      }
+  }
+</script>
+
+</body>
+</html>

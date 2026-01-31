@@ -26,7 +26,7 @@ h2 {
   scroll-margin-top: 90px; /* Offset für Sticky Header */
 }
 
-/* -------- Responsive Breakpoints (fein) -------- */
+/* -------- Responsive Breakpoints -------- */
 @media (max-width: 2400px) { .responsive { width: 9.09%; } }
 @media (max-width: 2250px) { .responsive { width: 10%; } }
 @media (max-width: 2080px) { .responsive { width: 11.11%; } }
@@ -68,9 +68,6 @@ h2 {
   outline: 2px solid #ffcc66;
   background: #fff8e1;
   animation: highlight 1.5s ease-in-out;
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
-  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 /* =====================================================
@@ -104,7 +101,6 @@ video {
   align-items: center;
   gap: 10px;
   padding: 8px 10px;
-  height: 50px;
 }
 
 .header-bar a {
@@ -126,48 +122,77 @@ video {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 1.5em; /* Schriftgröße größer */
 }
 
-/* =====================================================
-   Header-Bar Index-Seiten (einzeilig, inkl. Hilfe-Link)
-===================================================== */
-.topbar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 10px;
-  height: 50px; /* Einzeilig */
-}
-
-.topbar .center {
-  flex: 1;
-  text-align: center;
+/* -------- Hinweis Ton -------- */
+.header-bar .mute-hint {
+  font-size: 0.9em;
+  color: #cc0000;
   font-weight: bold;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  margin: 0 8px;
+  cursor: pointer;
 }
-
-.topbar .midright {
-  position: relative;
-  margin-right: 10px; /* halbrechts für Hilfe-Link */
-}
-
-.topbar .right {
-  margin-left: auto; /* Autoplay-Link rechts */
-}
-
-.topbar a {
-  text-decoration: none;
-  font-weight: bold;
+/* Header-Bar Buttons ohne Hintergrund */
+.header-bar .help-btn,
+.header-bar .toggle-btn {
+  font-size: 0.9em;
+  padding: 4px 8px;
+  background: transparent;   /* kein Hintergrund */
   color: #0066cc;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.3s;
+  margin-left: 6px;          /* Abstand zwischen den Buttons */
 }
 
-.topbar a:hover {
+.header-bar .help-btn:hover,
+.header-bar .toggle-btn:hover {
+  color: #004999;
+}
+/* Main Content - responsive */
+main {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: clamp(16px, 2vw, 20px); /* Text responsiv zwischen 16px und 20px */
+  padding: 0 15px; /* Abstand zum Rand */
+  max-width: 900px; /* Lesebreite begrenzen */
+  margin: 0 auto; /* Zentrieren bei großen Bildschirmen */
+}
+
+main h2 {
+  font-size: clamp(22px, 4vw, 32px); /* Überschrift responsiv */
+  text-align: center;
+  margin: 20px 0;
+}
+
+main ul {
+  padding-left: 1.2em; /* Einzug der Liste */
+  margin-bottom: 1em;
+}
+
+main li {
+  margin-bottom: 0.5em;
+}
+
+/* Alle Bilder im Main-Bereich responsiv */
+main img {
+  max-width: 100%;    /* Bild passt sich der Breite des Containers an */
+  height: auto;       /* Höhe bleibt proportional */
+  display: block;     /* Kein zusätzlicher Inline-Abstand */
+  margin: 15px 0;     /* Abstand ober- und unterhalb des Bildes */
+  border-radius: 4px; /* optional: leichte abgerundete Ecken */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: leichter Schatten */
+}
+
+/* Optional: Links im Main-Bereich */
+main a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+main a:hover {
   text-decoration: underline;
 }

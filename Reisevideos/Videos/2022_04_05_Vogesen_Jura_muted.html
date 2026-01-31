@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Vogesen und Jura Frühjahr 2022</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="header-bar">
+  <a href="../index_muted.html">← Übersicht</a>
+  <div class="title">Vogesen und Jura Frühjahr 2022</div>
+  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
+  <a href="../index_muted.html#2022_04_05_Vogesen_Jura">↺ Zurück zum Video</a>
+</div>
+
+<video id="videoPlayer" controls autoplay playsinline muted>
+  <source src="2022_04_05_Vogesen_Jura.mp4" type="video/mp4">
+  Video "2022_04_05_Vogesen_Jura.mp4" nicht verfügbar.
+</video>
+
+<script>
+  const video = document.getElementById('videoPlayer');
+  const hint  = document.getElementById('muteHint');
+  if (video && hint) {
+      if (!video.muted) {
+          hint.style.display = 'none';
+      }
+      hint.onclick = function() {
+          video.muted = false;
+          video.play();
+          hint.style.display = 'none';
+      }
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Odenwald Steigerwald Haßberge Frühjahr 2024</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="header-bar">
+  <a href="../index_muted.html">← Übersicht</a>
+  <div class="title">Odenwald Steigerwald Haßberge Frühjahr 2024</div>
+  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
+  <a href="../index_muted.html#2024_04_05_Odenwald_Steigerwald_Hassberge">↺ Zurück zum Video</a>
+</div>
+
+<video id="videoPlayer" controls autoplay playsinline muted>
+  <source src="2024_04_05_Odenwald_Steigerwald_Hassberge.mp4" type="video/mp4">
+  Video "2024_04_05_Odenwald_Steigerwald_Hassberge.mp4" nicht verfügbar.
+</video>
+
+<script>
+  const video = document.getElementById('videoPlayer');
+  const hint  = document.getElementById('muteHint');
+  if (video && hint) {
+      if (!video.muted) {
+          hint.style.display = 'none';
+      }
+      hint.onclick = function() {
+          video.muted = false;
+          video.play();
+          hint.style.display = 'none';
+      }
+  }
+</script>
+
+</body>
+</html>

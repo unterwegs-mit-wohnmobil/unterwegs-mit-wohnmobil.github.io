@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Gunzenhausen - Gelber Berg Frühjahr 2021</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="header-bar">
+  <a href="../index_muted.html">← Übersicht</a>
+  <div class="title">Gunzenhausen - Gelber Berg Frühjahr 2021</div>
+  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
+  <a href="../index_muted.html#2021_05_Gelber_Berg">↺ Zurück zum Video</a>
+</div>
+
+<video id="videoPlayer" controls autoplay playsinline muted>
+  <source src="2021_05_Gelber_Berg.mp4" type="video/mp4">
+  Video "2021_05_Gelber_Berg.mp4" nicht verfügbar.
+</video>
+
+<script>
+  const video = document.getElementById('videoPlayer');
+  const hint  = document.getElementById('muteHint');
+  if (video && hint) {
+      if (!video.muted) {
+          hint.style.display = 'none';
+      }
+      hint.onclick = function() {
+          video.muted = false;
+          video.play();
+          hint.style.display = 'none';
+      }
+  }
+</script>
+
+</body>
+</html>
