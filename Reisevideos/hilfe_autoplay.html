@@ -2,113 +2,128 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Meine WebApp">
+
 <title>Autoplay-Hilfe</title>
 <link rel="stylesheet" href="style.css">
-<style>
-/* Flexbox für Bildreihen */
-.browser-images {
-  display: flex;
-  flex-wrap: wrap;   /* kleine Screens → untereinander */
-  gap: 10px;         /* Abstand zwischen Bildern */
-  justify-content: center; /* zentriert */
-}
-
-.browser-images figure {
-  flex: 1 1 200px;   /* nimmt mindestens 200px Breite, wächst flexibel */
-  max-width: 300px;  /* optional: max Breite */
-  margin: 0;
-}
-</style>
+<link rel="manifest" href="manifest.json">
 </head>
+
 <body>
 
 <div class="header-bar">
-  <div class="left"><a href="index_muted.html">← zurück</a></div>
+  <a href="index_muted.html">← zurück</a>
   <div class="center">Autoplay-Hilfe</div>
 </div>
 
 <main>
-  <h2>Autoplay mit Ton – Hinweise</h2>
+<h2>Autoplay mit Ton – Hinweise</h2>
 
-  <!-- Allgemeiner Text -->
-  <p>Autoplay mit Ton funktioniert nur, wenn der Browser dies erlaubt. Standardmäßig blockieren moderne Browser das automatische Abspielen von Videos mit Ton.</p>
-  
-  <p>Damit Autoplay mit Ton funktioniert:</p>
-  <ul>
-    <li>Öffne die Website im Browser</li>
-    <li>Prüfe die Einstellungen für „Automatische Wiedergabe“ oder „Autoplay“</li>
-    <li>Erlaube der Website, Medien automatisch abzuspielen</li>
-  </ul>
-  
-  <p>Wenn diese Einstellungen nicht gesetzt sind, startet das Video automatisch, aber <strong>ohne Ton</strong>.</p>
-  
-  <p>Du kannst jederzeit zwischen der Variante mit Ton und der stummen Variante wechseln über die Index-Seiten.</p>
+<!-- ================= Allgemeiner Text ================= -->
+<p>
+Autoplay mit Ton funktioniert nur, wenn der Browser dies erlaubt.
+Standardmäßig blockieren moderne Browser das automatische Abspielen von Videos mit Ton.
+</p>
 
-  <!-- ================= Browser-spezifische Hinweise ================= -->
+<p>Damit Autoplay mit Ton funktioniert:</p>
+<ul>
+  <li>Öffne die Website im Browser</li>
+  <li>Prüfe die Einstellungen für „Automatische Wiedergabe“ oder „Autoplay“</li>
+  <li>Erlaube der Website, Medien automatisch abzuspielen</li>
+</ul>
 
-  <!-- Safari -->
-  <h3>Safari</h3>
-  <p><strong>Schritt-für-Schritt:</strong></p>
-  <ol>
-    <li>Webseite öffnen.</li>
-    <li>Öffne Safari-Einstellungen → “Websites” → “Automatische Wiedergabe”.</li>
-    <li>Erlaube der Website, Medien automatisch abzuspielen.</li>
-  </ol>
-  <figure>
-    <a href="hilfe_autoplay_safari.jpg" target="_blank" title="Hilfebild Safari öffnen">
-      <img src="hilfe_autoplay_safari.jpg" alt="Hilfebild Autoplay Safari">
-    </a>
-    <figcaption>Klick auf das Bild zum Vergrößern</figcaption>
-  </figure>
+<p>
+Wenn diese Einstellungen nicht gesetzt sind, startet das Video automatisch,
+aber <strong>ohne Ton</strong>.
+</p>
 
-  <!-- Firefox -->
-  <h3>Firefox</h3>
-  <p><strong>Schritt-für-Schritt:</strong></p>
-  <ol>
-    <li>Webseite öffnen → klicke auf das Schlosssymbol links in der Adressleiste.</li>
-    <li>Klicke auf “Berechtigungen” → suche nach “Automatische Wiedergabe von Medien”.</li>
-    <li>Stelle es auf “Audio und Video erlauben”.</li>
-  </ol>
-  <div class="browser-images">
-    <figure>
-      <a href="hilfe_autoplay_firefox1.jpg" target="_blank" title="Hilfebild Firefox 1">
-        <img src="hilfe_autoplay_firefox1.jpg" alt="Hilfebild Firefox 1">
-      </a>
-    </figure>
-    <figure>
-      <a href="hilfe_autoplay_firefox2.jpg" target="_blank" title="Hilfebild Firefox 2">
-        <img src="hilfe_autoplay_firefox2.jpg" alt="Hilfebild Firefox 2">
-      </a>
-    </figure>
-    <figure>
-      <a href="hilfe_autoplay_firefox3.jpg" target="_blank" title="Hilfebild Firefox 3">
-        <img src="hilfe_autoplay_firefox3.jpg" alt="Hilfebild Firefox 3">
-      </a>
-    </figure>
-  </div>
+<p>
+Du kannst jederzeit zwischen der Variante mit Ton und der stummen Variante
+wechseln über die Index-Seiten.
+</p>
 
-  <!-- Chrome -->
-  <h3>Google Chrome</h3>
-  <p><strong>Schritt-für-Schritt:</strong></p>
-  <ol>
-    <li>Webseite öffnen → klicke auf das Schlosssymbol links in der Adressleiste → “Website-Einstellungen”.</li>
-    <li>Unter “Ton” auf “Erlauben” setzen.</li>
-    <li>Unter “Automatische Wiedergabe von Medien” ebenfalls auf “Erlauben” setzen.</li>
-  </ol>
-  <div class="browser-images">
-    <figure>
-      <a href="hilfe_autoplay_chrome1.jpg" target="_blank" title="Hilfebild Chrome 1">
-        <img src="hilfe_autoplay_chrome1.jpg" alt="Hilfebild Chrome 1">
-      </a>
-    </figure>
-    <figure>
-      <a href="hilfe_autoplay_chrome2.jpg" target="_blank" title="Hilfebild Chrome 2">
-        <img src="hilfe_autoplay_chrome2.jpg" alt="Hilfebild Chrome 2">
-      </a>
-    </figure>
-  </div>
+<!-- ================= Safari ================= -->
+<h3>Safari (Desktop)</h3>
+<ol>
+  <li>Webseite öffnen.</li>
+  <li>Safari → Einstellungen → „Websites“ → „Automatische Wiedergabe“.</li>
+  <li>Für diese Website „Alle automatisch abspielen“ wählen.</li>
+</ol>
+
+<div class="browser-images">
+  <a href="#sa1"><img src="hilfe_autoplay_safari.jpg" alt="Safari Autoplay Einstellungen"></a>
+</div>
+
+<div id="sa1" class="lightbox">
+  <a class="bg" href="#"></a>
+  <img src="hilfe_autoplay_safari.jpg" alt="Safari Autoplay Einstellungen groß">
+</div>
+
+<!-- ================= Firefox ================= -->
+<h3>Firefox (Desktop)</h3>
+<ol>
+  <li>Webseite öffnen → Schlosssymbol links anklicken.</li>
+  <li>„Berechtigungen“ → „Automatische Wiedergabe“.</li>
+  <li>„Audio und Video erlauben“ auswählen.</li>
+</ol>
+
+<div class="browser-images">
+  <a href="#ff1"><img src="hilfe_autoplay_firefox1.jpg" alt=""></a>
+  <a href="#ff2"><img src="hilfe_autoplay_firefox2.jpg" alt=""></a>
+  <a href="#ff3"><img src="hilfe_autoplay_firefox3.jpg" alt=""></a>
+</div>
+
+<div id="ff1" class="lightbox">
+  <a class="bg" href="#"></a>
+  <img src="hilfe_autoplay_firefox1.jpg">
+  <a class="next" href="#ff2">›</a>
+</div>
+
+<div id="ff2" class="lightbox">
+  <a class="bg" href="#"></a>
+  <img src="hilfe_autoplay_firefox2.jpg">
+  <a class="prev" href="#ff1">‹</a>
+  <a class="next" href="#ff3">›</a>
+</div>
+
+<div id="ff3" class="lightbox">
+  <a class="bg" href="#"></a>
+  <img src="hilfe_autoplay_firefox3.jpg">
+  <a class="prev" href="#ff2">‹</a>
+</div>
+
+<!-- ================= Chrome ================= -->
+<h3>Google Chrome (Desktop)</h3>
+<ol>
+  <li>Webseite öffnen → Schlosssymbol anklicken.</li>
+  <li>„Website-Einstellungen“ → „Ton“ auf „Erlauben“ setzen.</li>
+</ol>
+
+<div class="browser-images">
+  <a href="#ch1"><img src="hilfe_autoplay_chrome1.jpg" alt=""></a>
+  <a href="#ch2"><img src="hilfe_autoplay_chrome2.jpg" alt=""></a>
+</div>
+
+<div id="ch1" class="lightbox">
+  <a class="bg" href="#"></a>
+  <img src="hilfe_autoplay_chrome1.jpg">
+  <a class="next" href="#ch2">›</a>
+</div>
+
+<div id="ch2" class="lightbox">
+  <a class="bg" href="#"></a>
+  <img src="hilfe_autoplay_chrome2.jpg">
+  <a class="prev" href="#ch1">‹</a>
+</div>
+
+<p>
+<strong>Hinweis:</strong>
+Diese Einstellungen gelten nur für Desktop-Browser.
+Auf iOS und Android erzwingen die Betriebssysteme häufig stummes Autoplay.
+</p>
 
 </main>
-
 </body>
 </html>

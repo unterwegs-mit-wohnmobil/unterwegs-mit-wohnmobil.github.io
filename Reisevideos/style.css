@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  padding-top: 60px; /* Höhe des fixed Headers */
+  padding-top: 60px; /* Platz für fixed Header */
 }
 
 h2 {
@@ -24,10 +24,10 @@ h2 {
   padding: 0 6px;
   float: left;
   width: 8.33333%;
-  scroll-margin-top: 90px; /* Offset für Header */
+  scroll-margin-top: 90px;
 }
 
-/* -------- Responsive Breakpoints für Galerie -------- */
+/* -------- Responsive Breakpoints -------- */
 @media (max-width: 2400px) { .responsive { width: 9.09%; } }
 @media (max-width: 2250px) { .responsive { width: 10%; } }
 @media (max-width: 2080px) { .responsive { width: 11.11%; } }
@@ -103,7 +103,7 @@ video {
   gap: 10px;
   padding: 10px 15px;
   background: #fff;
-  border-bottom: 1px solid #ccc; /* Strich auf Index/Hilfe */
+  border-bottom: 1px solid #ccc;
 }
 
 /* Kein Strich auf Videoseiten */
@@ -117,7 +117,6 @@ video {
   font-weight: bold;
   color: #0066cc;
   white-space: nowrap;
-  transition: color 0.3s;
 }
 
 .header-bar a:hover {
@@ -137,32 +136,23 @@ video {
   font-size: clamp(18px, 2.5vw, 24px);
 }
 
-/* Hilfebutton / Togglebutton / Hinweis */
+/* Buttons / Hinweise */
 .header-bar .help-btn,
 .header-bar .toggle-btn,
 .header-bar .mute-hint {
   font-size: 0.9em;
   padding: 4px 8px;
-  background: transparent;   /* kein Hintergrund */
+  background: transparent;
   color: #0066cc;
   border-radius: 4px;
-  text-decoration: none;
-  white-space: nowrap;
   margin-left: 6px;
   cursor: pointer;
-  transition: color 0.3s;
-}
-
-.header-bar .help-btn:hover,
-.header-bar .toggle-btn:hover {
-  color: #004999;
 }
 
 /* =====================================================
    Main Content
 ===================================================== */
 main {
-  font-family: Arial, sans-serif;
   line-height: 1.6;
   font-size: clamp(16px, 2vw, 20px);
   max-width: 900px;
@@ -172,70 +162,84 @@ main {
 
 main h2 {
   font-size: clamp(22px, 4vw, 32px);
-  text-align: center;
   margin-bottom: 20px;
 }
 
-main ul {
-  padding-left: 1.2em;
-  margin-bottom: 1em;
-}
-
-main li {
-  margin-bottom: 0.5em;
+main h3 {
+  margin-top: 30px;
 }
 
 /* =====================================================
-   Bilder im Main-Bereich
+   Bilder
 ===================================================== */
 main img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 15px 0;
+  margin: 10px 0;
   border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-figure {
-  margin: 20px 0;
-  text-align: center;
-}
-
-figure figcaption {
-  font-size: 0.9em;
-  color: #555;
-  margin-top: 5px;
-  text-align: center;
 }
 
 /* =====================================================
-   Links
+   CSS Lightbox (ohne JS, Web-App-tauglich)
 ===================================================== */
-main a {
-  color: #0066cc;
+.browser-images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.browser-images img {
+  max-width: 220px;
+  cursor: zoom-in;
+}
+
+/* Lightbox Overlay */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+}
+
+.lightbox:target {
+  display: flex;
+}
+
+/* Bild */
+.lightbox img {
+  max-width: 92%;
+  max-height: 92%;
+}
+
+/* Hintergrund = schließen */
+.lightbox .bg {
+  position: absolute;
+  inset: 0;
+}
+
+/* Navigation */
+.lightbox .prev,
+.lightbox .next {
+  position: absolute;
+  top: 50%;
+  font-size: 56px;
+  padding: 20px;
+  color: #fff;
   text-decoration: none;
+  transform: translateY(-50%);
 }
 
-main a:hover {
-  text-decoration: underline;
-}
+.lightbox .prev { left: 0; }
+.lightbox .next { right: 0; }
 
-/* =====================================================
-   Kleine Smartphones
-===================================================== */
-@media (max-width: 500px) {
-  main {
-    font-size: 15px;
-    padding: 0 10px;
-  }
-
-  .header-bar .title,
-  .header-bar .center {
-    font-size: 18px;
-  }
-
-  figure {
-    margin: 15px 0;
+/* Mobile */
+@media (max-width: 600px) {
+  .browser-images img {
+    max-width: 100%;
   }
 }
