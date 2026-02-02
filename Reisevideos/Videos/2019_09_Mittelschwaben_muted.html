@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Meine WebApp">
+<meta name="apple-mobile-web-app-title" content="Reisevideos WebApp">
 <title>Mittelschwaben Herbst 2019</title>
 <link rel="stylesheet" href="../style.css">
 <link rel="manifest" href="../manifest.json">
@@ -14,29 +14,13 @@
 <div class="header-bar video-page">
   <a href="../index_muted.html">← Übersicht</a>
   <div class="title">Mittelschwaben Herbst 2019</div>
-  <span class="mute-hint" id="muteHint">Ton ggf. einschalten</span>
-  <a href="../index_muted.html#2019_09_Mittelschwaben">↺ Zurück zum Video</a>
+  <a href="2019_09_Mittelschwaben_thumbs_muted.html">🖼 Bilder</a>
+  <a href="../index_muted.html#2019_09_Mittelschwaben">↺ Zurück</a>
 </div>
 
-<video id="videoPlayer" controls autoplay playsinline muted>
+<video controls autoplay muted playsinline>
   <source src="2019_09_Mittelschwaben.mp4" type="video/mp4">
-  Video "2019_09_Mittelschwaben.mp4" nicht verfügbar.
 </video>
-
-<script>
-  const video = document.getElementById('videoPlayer');
-  const hint  = document.getElementById('muteHint');
-  if (video && hint) {
-      if (!video.muted) {
-          hint.style.display = 'none';
-      }
-      hint.onclick = function() {
-          video.muted = false;
-          video.play();
-          hint.style.display = 'none';
-      }
-  }
-</script>
 
 </body>
 </html>
