@@ -21,26 +21,18 @@ h2 {
    Galerie / Index
 ===================================================== */
 .responsive {
-  padding: 0 6px;
   float: left;
-  width: 8.33333%;
-  scroll-margin-top: 90px;
+  width: 12.5%; /* Standard 8 Spalten */
+  padding: 6px;
+  scroll-margin-top: 90px; /* Für :target */
 }
 
-/* -------- Responsive Breakpoints -------- */
-@media (max-width: 2400px) { .responsive { width: 9.09%; } }
-@media (max-width: 2250px) { .responsive { width: 10%; } }
-@media (max-width: 2080px) { .responsive { width: 11.11%; } }
-@media (max-width: 1920px) { .responsive { width: 12.5%; } }
-@media (max-width: 1770px) { .responsive { width: 14.28%; } }
-@media (max-width: 1600px) { .responsive { width: 16.66%; } }
 @media (max-width: 1400px) { .responsive { width: 20%; } }
 @media (max-width: 1200px) { .responsive { width: 25%; } }
 @media (max-width: 950px)  { .responsive { width: 33.33%; } }
 @media (max-width: 700px)  { .responsive { width: 50%; } }
 @media (max-width: 500px)  { .responsive { width: 100%; } }
 
-/* -------- Galerie-Kacheln -------- */
 .gallery {
   border: 1px solid #ccc;
   padding: 5px;
@@ -54,11 +46,10 @@ h2 {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 4px;
 }
 
-/* =====================================================
-   Ziel-Kachel-Hervorhebung
-===================================================== */
+/* Ziel-Kachel-Hervorhebung */
 @keyframes highlight {
   0%   { background-color: #fff8e1; outline-color: #ffcc66; }
   50%  { background-color: #fff0b3; outline-color: #ffbb33; }
@@ -71,9 +62,7 @@ h2 {
   animation: highlight 1.5s ease-in-out;
 }
 
-/* =====================================================
-   Clearfix
-===================================================== */
+/* Clearfix */
 .clearfix::after {
   content: "";
   display: table;
@@ -109,6 +98,7 @@ video {
 /* Kein Strich auf Videoseiten */
 .header-bar.video-page {
   border-bottom: none;
+  padding-bottom: 10px; /* weniger Platz verschenkt */
 }
 
 /* Links / Buttons */
@@ -169,9 +159,7 @@ main h3 {
   margin-top: 30px;
 }
 
-/* =====================================================
-   Bilder
-===================================================== */
+/* Bilder */
 main img {
   max-width: 100%;
   height: auto;
@@ -181,7 +169,7 @@ main img {
 }
 
 /* =====================================================
-   CSS Lightbox (ohne JS, Web-App-tauglich)
+   CSS Lightbox (ohne JS)
 ===================================================== */
 .browser-images {
   display: flex;
@@ -210,19 +198,16 @@ main img {
   display: flex;
 }
 
-/* Bild */
 .lightbox img {
   max-width: 92%;
   max-height: 92%;
 }
 
-/* Hintergrund = schließen */
 .lightbox .bg {
   position: absolute;
   inset: 0;
 }
 
-/* Navigation */
 .lightbox .prev,
 .lightbox .next {
   position: absolute;
@@ -237,9 +222,14 @@ main img {
 .lightbox .prev { left: 0; }
 .lightbox .next { right: 0; }
 
-/* Mobile */
+/* Mobile Anpassungen */
 @media (max-width: 600px) {
   .browser-images img {
     max-width: 100%;
+  }
+  .lightbox .prev,
+  .lightbox .next {
+    font-size: 36px;
+    padding: 10px;
   }
 }
