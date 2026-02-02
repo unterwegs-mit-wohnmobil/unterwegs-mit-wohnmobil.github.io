@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
+<html lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -21,31 +21,77 @@
 <main>
 <h2>Autoplay mit Ton – Hinweise</h2>
 
-<!-- ================= Allgemeiner Text ================= -->
 <p>
 Autoplay mit Ton funktioniert nur, wenn der Browser dies erlaubt.
 Standardmäßig blockieren moderne Browser das automatische Abspielen von Videos mit Ton.
-</p>
-
-<p>Damit Autoplay mit Ton funktioniert:</p>
-<ul>
-  <li>Öffne die Website im Browser</li>
-  <li>Prüfe die Einstellungen für „Automatische Wiedergabe“ oder „Autoplay“</li>
-  <li>Erlaube der Website, Medien automatisch abzuspielen</li>
-</ul>
-
-<p>
-Wenn diese Einstellungen nicht gesetzt sind, startet das Video automatisch,
+</p>Wenn diese Einstellungen nicht gesetzt sind, startet das Video automatisch,
 aber <strong>ohne Ton</strong>.
-</p>
+
 
 <p>
 Du kannst jederzeit zwischen der Variante mit Ton und der stummen Variante
 wechseln über die Index-Seiten.
 </p>
 
-<!-- ================= Safari ================= -->
-<h3>Safari (Desktop)</h3>
+<h3>Besonderheiten je nach Gerät</h3>
+
+<h4>Auf iPhone und iPad (iOS / iPadOS)</h4>
+<p>
+Auf iPhone und iPad erlaubt das Betriebssystem grundsätzlich
+<strong>kein automatisches Abspielen von Videos mit Ton</strong>.
+Videos dürfen nur automatisch starten, wenn sie stummgeschaltet sind.
+</p>
+<p>
+Das bedeutet:
+</p>
+<ul>
+  <li>Videos starten automatisch <strong>ohne Ton</strong></li>
+  <li>Der Ton kann erst nach einer Benutzeraktion (z. B. Tippen) aktiviert werden</li>
+  <li>Diese Einschränkung gilt unabhängig vom verwendeten Browser</li>
+</ul>
+<p>
+Daher ist auf iOS die stumme Variante der Videos die empfohlene Ansicht.
+</p>
+
+<h4>Auf Android (z. B. Samsung, Google Pixel)</h4>
+<p>
+Auf Android-Geräten ist das Verhalten vom Browser und von den
+Systemeinstellungen abhängig.
+</p>
+<ul>
+  <li>Viele Browser erlauben automatisches Abspielen <strong>nur ohne Ton</strong></li>
+  <li>Manche Browser starten Videos mit Ton erst nach einer Benutzerinteraktion</li>
+  <li>Die Einstellungen können sich je nach Hersteller und Android-Version unterscheiden</li>
+</ul>
+<p>
+Auch hier ist die stumme Variante in der Regel die zuverlässigste Option
+für automatisches Abspielen.
+</p>
+
+<h4>Auf dem PC (Windows, macOS, Linux)</h4>
+<p>
+Auf Desktop-Systemen erlauben moderne Browser in der Regel,
+für einzelne Webseiten festzulegen, ob Videos automatisch
+<strong>mit Ton</strong> abgespielt werden dürfen.
+</p>
+<p>
+Wenn diese Berechtigung gesetzt ist:
+</p>
+<ul>
+  <li>starten Videos automatisch</li>
+  <li>auch mit eingeschaltetem Ton</li>
+</ul>
+<p>
+Die entsprechenden Einstellungen findest du meist in den
+Website-Berechtigungen oder Autoplay-Einstellungen des Browsers
+(z. B. Safari, Firefox, Chrome):
+</p>
+
+<ul>
+<li>Öffne die Website im Browser</li><li>Prüfe die Einstellungen für „Automatische Wiedergabe“ oder „Autoplay“</li><li>Erlaube der Website, Medien automatisch abzuspielen</li>
+</ul>
+<h3 id="safari">Safari (Desktop)</h3>
+
 <ol>
   <li>Webseite öffnen.</li>
   <li>Safari → Einstellungen → „Websites“ → „Automatische Wiedergabe“.</li>
@@ -53,16 +99,18 @@ wechseln über die Index-Seiten.
 </ol>
 
 <div class="browser-images">
-  <a href="#sa1"><img src="hilfe_autoplay_safari.jpg" alt="Safari Autoplay Einstellungen"></a>
+  <a href="#sa1">
+    <img src="hilfe_autoplay_safari.jpg" alt="Safari Autoplay Einstellungen">
+  </a>
 </div>
 
 <div id="sa1" class="lightbox">
-  <a class="bg" href="#"></a>
+  <a class="bg" href="#safari" onclick="history.back(); return false;"></a>
   <img src="hilfe_autoplay_safari.jpg" alt="Safari Autoplay Einstellungen groß">
 </div>
 
 <!-- ================= Firefox ================= -->
-<h3>Firefox (Desktop)</h3>
+<h3 id="firefox">Firefox (Desktop)</h3>
 <ol>
   <li>Webseite öffnen → Schlosssymbol links anklicken.</li>
   <li>„Berechtigungen“ → „Automatische Wiedergabe“.</li>
@@ -76,26 +124,26 @@ wechseln über die Index-Seiten.
 </div>
 
 <div id="ff1" class="lightbox">
-  <a class="bg" href="#"></a>
+  <a class="bg" href="#firefox" onclick="history.back(); return false;"></a>
   <img src="hilfe_autoplay_firefox1.jpg">
   <a class="next" href="#ff2">›</a>
 </div>
 
 <div id="ff2" class="lightbox">
-  <a class="bg" href="#"></a>
+  <a class="bg" href="#firefox" onclick="history.back(); return false;"></a>
   <img src="hilfe_autoplay_firefox2.jpg">
   <a class="prev" href="#ff1">‹</a>
   <a class="next" href="#ff3">›</a>
 </div>
 
 <div id="ff3" class="lightbox">
-  <a class="bg" href="#"></a>
+  <a class="bg" href="#firefox" onclick="history.back(); return false;"></a>
   <img src="hilfe_autoplay_firefox3.jpg">
   <a class="prev" href="#ff2">‹</a>
 </div>
 
 <!-- ================= Chrome ================= -->
-<h3>Google Chrome (Desktop)</h3>
+<h3 id="chrome">Google Chrome (Desktop)</h3>
 <ol>
   <li>Webseite öffnen → Schlosssymbol anklicken.</li>
   <li>„Website-Einstellungen“ → „Ton“ auf „Erlauben“ setzen.</li>
@@ -107,23 +155,20 @@ wechseln über die Index-Seiten.
 </div>
 
 <div id="ch1" class="lightbox">
-  <a class="bg" href="#"></a>
+  <a class="bg" href="#chrome" onclick="history.back(); return false;"></a>
   <img src="hilfe_autoplay_chrome1.jpg">
   <a class="next" href="#ch2">›</a>
 </div>
 
 <div id="ch2" class="lightbox">
-  <a class="bg" href="#"></a>
+  <a class="bg" href="#chrome" onclick="history.back(); return false;"></a>
   <img src="hilfe_autoplay_chrome2.jpg">
   <a class="prev" href="#ch1">‹</a>
 </div>
 
-<p>
-<strong>Hinweis:</strong>
-Diese Einstellungen gelten nur für Desktop-Browser.
-Auf iOS und Android erzwingen die Betriebssysteme häufig stummes Autoplay.
-</p>
+
 
 </main>
-</body>
-</html>
+
+
+</body></html>
