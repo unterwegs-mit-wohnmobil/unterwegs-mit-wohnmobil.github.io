@@ -1,0 +1,102 @@
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+aaa_FbVdK_E400_8623.jpg		no	0:00	0:05	0.000	5.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 9:50
+BrHtY_E400_8305.jpg		no	0:05	0:10	5.000	10.000	5.000	Schöner Übernachtungsplatz direkt an der Tauber	Taubertal	Tauberzell	17.9.17 (So) 9:42
+BrRcG_E400_8307.jpg		no	0:10	0:15	10.000	15.000	5.000	Der Riemenschneideraltar in Creglingen	Taubertal	Creglingen	17.9.17 (So) 11:27
+BrRhB_E400_8311.jpg		no	0:15	0:20	15.000	20.000	5.000	Der Riemenschneideraltar in Creglingen	Taubertal	Creglingen	17.9.17 (So) 11:29
+BrRkJ_E400_8314.jpg		no	0:20	0:25	20.000	25.000	5.000	Der Riemenschneideraltar in Creglingen	Taubertal	Creglingen	17.9.17 (So) 11:30
+BrRkS_E400_8315.jpg		no	0:25	0:30	25.000	30.000	5.000	Der Riemenschneideraltar in Creglingen	Taubertal	Creglingen	17.9.17 (So) 11:30
+BrRlA_E400_8316.jpg		no	0:30	0:35	30.000	35.000	5.000	Der Riemenschneideraltar in Creglingen	Taubertal	Creglingen	17.9.17 (So) 11:30
+BrRmX_E400_8319.jpg		no	0:35	0:40	35.000	40.000	5.000	Der Riemenschneideraltar in Creglingen	Taubertal	Creglingen	17.9.17 (So) 11:31
+CwRyT_iPh5s_3269.jpg		no	0:40	0:45	40.000	45.000	5.000	Regenbogen in Potsdam	Potsdam		23.9.17 (Sa) 18:57
+DaZmT_iPh5s_3274.jpg		no	0:45	0:50	45.000	50.000	5.000	Museum Barberini in Potsdam	Potsdam		24.9.17 (So) 15:54
+DbAjO_iPh5s_3276.jpg		no	0:50	0:55	50.000	55.000	5.000	Museum Barberini in Potsdam	Potsdam		24.9.17 (So) 16:04
+DbCfT_iPh5s_3278.jpg		no	0:55	1:00	55.000	60.000	5.000	Blick aus dem Eingang des Museums Barberini auf den Alten Markt in Potsdam	Potsdam		24.9.17 (So) 16:25
+DeGxE_iPh5s_3284.jpg		no	1:00	1:05	60.000	65.000	5.000	An der Heilandskirche in Sacrow bei Potsdam	Potsdam		25.9.17 (Mo) 7:56
+DeUpZ_iPh5s_3285.jpg		no	1:05	1:10	65.000	70.000	5.000	Heilandskirche in Sacrow	Potsdam		25.9.17 (Mo) 10:31
+DeWcE_iPh5s_3292.jpg		no	1:10	1:15	70.000	75.000	5.000	Schiffstour auf den Potsdamer Seen und der Havel	Potsdam		25.9.17 (Mo) 10:47
+DeYdO_iPh5s_3303.jpg		no	1:15	1:20	75.000	80.000	5.000	Schloss und Park Babelsberg	Potsdam		25.9.17 (Mo) 11:10
+DeYfC_iPh5s_3305.jpg		no	1:20	1:25	80.000	85.000	5.000	Schloss und Park Babelsberg	Potsdam		25.9.17 (Mo) 11:11
+DeYjX_iPh5s_3307.jpg		no	1:25	1:30	85.000	90.000	5.000	Schloss und Park Babelsberg	Potsdam		25.9.17 (Mo) 11:13
+DjFbW_iPh5s_3312.jpg		no	1:30	1:35	90.000	95.000	5.000	An der Heilandskirche in Sacrow bei Potsdam	Potsdam		26.9.17 (Di) 8:00
+DjFgT_iPh5s_3315.jpg		no	1:35	1:40	95.000	100.000	5.000	An der Heilandskirche in Sacrow bei Potsdam	Potsdam		26.9.17 (Di) 8:02
+DjGbX_iPh5s_3327.jpg		no	1:40	1:45	100.000	105.000	5.000	An der Heilandskirche in Sacrow bei Potsdam	Potsdam		26.9.17 (Di) 8:12
+DtIqB_E400_8448.jpg		no	1:45	1:50	105.000	110.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 9:30
+DtJgQ_E400_8331.jpg		no	1:50	1:55	110.000	115.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 9:37
+DtJhG_E400_8332.jpg		no	1:55	2:00	115.000	120.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 9:37
+DtKtL_E400_8343.jpg		no	2:00	2:05	120.000	125.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 9:54
+DtLaP_E400_8344.jpg		no	2:05	2:10	125.000	130.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 9:57
+DtMyU_E400_8366.jpg		no	2:10	2:15	130.000	135.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:18
+DtNaV_E400_8368.jpg		no	2:15	2:20	135.000	140.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:19
+DtNkQ_E400_8376.jpg		no	2:20	2:25	140.000	145.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:24
+DtOgO_E400_8378.jpg		no	2:25	2:30	145.000	150.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:33
+DtOnU_E400_8388.jpg		no	2:30	2:35	150.000	155.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:36
+DtOoX_E400_8389.jpg		no	2:35	2:40	155.000	160.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:37
+DtPaS_iPh5s_3337.jpg		no	2:40	2:45	160.000	165.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:42
+DtPaV_E400_8402.jpg		no	2:45	2:50	165.000	170.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:42
+DtPbZ_E400_8403.jpg		no	2:50	2:55	170.000	175.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:42
+DtPdI_E400_8404.jpg		no	2:55	3:00	175.000	180.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:43
+DtQgY_E400_8430.jpg		no	3:00	3:05	180.000	185.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:56
+DtQhW_E400_8431.jpg		no	3:05	3:10	185.000	190.000	5.000	Ostdeutscher Rosengarten in Forst (Lausitz, Neiße)	Forst (Lausitz)		28.9.17 (Do) 10:56
+DyGmV_E400_8451.jpg		no	3:10	3:15	190.000	195.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:30
+DyHnA_E400_8453.jpg		no	3:15	3:20	195.000	200.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:42
+DyHoF_E400_8454.jpg		no	3:20	3:25	200.000	205.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:42
+DyHtJ_iPh5s_3349.jpg		no	3:25	3:30	205.000	210.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:44
+DyIdH_E400_8462.jpg		no	3:30	3:35	210.000	215.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:49
+DyIfB_E400_8463.jpg		no	3:35	3:40	215.000	220.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:49
+DyIlS_E400_8468.jpg		no	3:40	3:45	220.000	225.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:52
+DyItG_iPh5s_3351.jpg		no	3:45	3:50	225.000	230.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:56
+DyIvJ_E400_8474.jpg		no	3:50	3:55	230.000	235.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 9:56
+DyJdS_E400_8480.jpg		no	3:55	4:00	235.000	240.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:00
+DyJfY_E400_8482.jpg		no	4:00	4:05	240.000	245.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:01
+DyJsR_E400_8485.jpg		no	4:05	4:10	245.000	250.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:07
+DyJwU_E400_8487.jpg		no	4:10	4:15	250.000	255.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:08
+DyKeX_iPh5s_3353.jpg		no	4:15	4:20	255.000	260.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:12
+DyKiP_E400_8493.jpg		no	4:20	4:25	260.000	265.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:13
+DyKyI_E400_8499.jpg		no	4:25	4:30	265.000	270.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:20
+DyLaI_iPh5s_3356.jpg		no	4:30	4:35	270.000	275.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:21
+DyLrK_E400_8508.jpg		no	4:35	4:40	275.000	280.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:29
+DyMdV_E400_8515.jpg		no	4:40	4:45	280.000	285.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:34
+DyMjP_E400_8518.jpg		no	4:45	4:50	285.000	290.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:36
+DyMxK_E400_8521.jpg		no	4:50	4:55	290.000	295.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:42
+DyNiM_E400_8522.jpg		no	4:55	5:00	295.000	300.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 10:47
+DyOmN_E400_8534.jpg		no	5:00	5:05	300.000	305.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 11:00
+DyPqM_iPh5s_3362.jpg		no	5:05	5:10	305.000	310.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 11:13
+DyPrY_iPh5s_3363.jpg		no	5:10	5:15	310.000	315.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 11:14
+DyPsT_E400_8540.jpg		no	5:15	5:20	315.000	320.000	5.000	Fürst-Pückler-Park in Branitz bei Cottbus	Cottbus		29.9.17 (Fr) 11:14
+EdGaQ_E400_8607.jpg		no	5:20	5:25	320.000	325.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 9:50
+EdGpA_E400_8544.jpg		no	5:25	5:30	325.000	330.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 9:56
+EdGsZ_E400_8547.jpg		no	5:30	5:35	330.000	335.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 9:58
+EdHzP_iPh5s_3367.jpg		no	5:35	5:40	335.000	340.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 10:12
+EdIbI_iPh5s_3369.jpg		no	5:40	5:45	340.000	345.000	5.000	Schloss Bad Muskau im Fürst-Pückler-Park	Bad Muskau		30.9.17 (Sa) 10:12
+EdIdJ_E400_8548.jpg		no	5:45	5:50	345.000	350.000	5.000	Schloss Bad Muskau im Fürst-Pückler-Park	Bad Muskau		30.9.17 (Sa) 10:13
+EdIwT_E400_8555.jpg		no	5:50	5:55	350.000	355.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 10:22
+EdKaO_iPh5s_3373.jpg		no	5:55	6:00	355.000	360.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 10:35
+EdLmV_E400_8568.jpg		no	6:00	6:05	360.000	365.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 10:51
+EdLqZ_E400_8571.jpg		no	6:05	6:10	365.000	370.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 10:53
+EdMjB_E400_8579.jpg		no	6:10	6:15	370.000	375.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 11:01
+EdMsF_iPh5s_3375.jpg		no	6:15	6:20	375.000	380.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 11:05
+EdMtD_E400_8583.jpg		no	6:20	6:25	380.000	385.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 11:05
+EdNiO_E400_8589.jpg		no	6:25	6:30	385.000	390.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 11:12
+EdNoF_E400_8595.jpg		no	6:30	6:35	390.000	395.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 11:14
+EdOnR_iPh5s_3378.jpg		no	6:35	6:40	395.000	400.000	5.000	Schloss Bad Muskau im Fürst-Pückler-Park	Bad Muskau		30.9.17 (Sa) 11:25
+EdOuF_E400_8609.jpg		no	6:40	6:45	400.000	405.000	5.000	Fürst-Pückler-Park in Bad Muskau	Bad Muskau		30.9.17 (Sa) 11:28
+EdPaZ_iPh5s_3382.jpg		no	6:45	6:50	405.000	410.000	5.000	Schloss Bad Muskau im Fürst-Pückler-Park	Bad Muskau		30.9.17 (Sa) 11:31
+EdPeI_E400_8616.jpg		no	6:50	6:55	410.000	415.000	5.000	Schloss Bad Muskau im Fürst-Pückler-Park	Bad Muskau		30.9.17 (Sa) 11:33
+ErSaK_iPh5s_3385.jpg		no	6:55	7:00	415.000	420.000	5.000	Morgenspaziergang in Neukirch in der Lausitz (Nähe Bautzen)	Landkreis Bautzen	Neukirch (Lausitz)	2.10.17 (Mo) 8:26
+FbVaU_E400_8621.jpg		no	7:00	7:05	420.000	425.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 9:49
+FbVdK_E400_8623.jpg		no	7:05	7:10	425.000	430.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 9:50
+FbVsY_E400_8631.jpg		no	7:10	7:15	430.000	435.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 9:57
+FbWiN_E400_8634.jpg		no	7:15	7:20	435.000	440.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 10:04
+FbWtU_E400_8637.jpg		no	7:20	7:25	440.000	445.000	5.000	Park von Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 10:09
+FcGlD_E400_8641.jpg		no	7:25	7:30	445.000	450.000	5.000	Park von Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 11:58
+FcGoX_E400_8643.jpg		no	7:30	7:35	450.000	455.000	5.000	Park von Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 11:59
+FcHeT_E400_8652.jpg		no	7:35	7:40	455.000	460.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 12:06
+FcIaD_E400_8661.jpg		no	7:40	7:45	460.000	465.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 12:15
+FgWyW_iPh5s_3393.jpg		no	7:45	7:50	465.000	470.000	5.000	Cafe der Meißener Porzellanmanufaktur	Meissen		5.10.17 (Do) 10:35
+FmKvT_iPh5s_3398.jpg		no	7:50	7:55	470.000	475.000	5.000	Veste Coburg	Coburg		6.10.17 (Fr) 13:37
+FmSfR_E400_8665.jpg		no	7:55	8:00	475.000	480.000	5.000	Veste Coburg	Coburg		6.10.17 (Fr) 15:00
+FmTbW_E400_8669.jpg		no	8:00	8:05	480.000	485.000	5.000	Veste Coburg	Coburg		6.10.17 (Fr) 15:09
+FmTdC_E400_8670.jpg		no	8:05	8:10	485.000	490.000	5.000	Veste Coburg	Coburg		6.10.17 (Fr) 15:10
+FmTfP_E400_8674.jpg		no	8:10	8:15	490.000	495.000	5.000	Veste Coburg	Coburg		6.10.17 (Fr) 15:11
+FmYqL_Scrsh_9312.jpg		no	8:15	8:20	495.000	500.000	5.000				6.10.17 (Fr) 16:12
+FmYqV_Scrsh_9313.jpg		no	8:20	8:25	500.000	505.000	5.000				6.10.17 (Fr) 16:12

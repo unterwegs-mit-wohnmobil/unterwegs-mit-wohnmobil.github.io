@@ -1,0 +1,69 @@
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+000_YvYgB_E400_1980.jpg		no	0:00	0:05	0.000	5.000	5.000	Neues Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:48
+YvPaJ_E400_1923.jpg		no	0:05	0:10	5.000	10.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:04
+YvPcH_E400_1924.jpg		no	0:10	0:15	10.000	15.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:05
+YvPsF_E400_1930.jpg		no	0:15	0:20	15.000	20.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:11
+YvPvV_E400_1933.jpg		no	0:20	0:25	20.000	25.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:13
+YvQhR_E400_1936.jpg		no	0:25	0:30	25.000	30.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:18
+YvQjC_E400_1937.jpg		no	0:30	0:35	30.000	35.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:19
+YvQkU_iPhSE_2460.jpg		no	0:35	0:40	35.000	40.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:20
+YvQuA_iPhSE_2464.jpg		no	0:40	0:45	40.000	45.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:24
+YvQvH_iPhSE_2475.jpg		no	0:45	0:50	45.000	50.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:24
+YvQwP_iPhSE_2474.jpg		no	0:50	0:55	50.000	55.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:25
+YvQyH_E400_1945.jpg		no	0:55	1:00	55.000	60.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:25
+YvRcH_WebDl_1911.jpg		no	1:00	1:05	60.000	65.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:27
+YvRcT_iPhSE_2447.mp4		yes	1:05	1:28	65.000	88.498	23.498	Prunktreppe im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:27
+YvRlS_E400_1952.jpg		no	1:28	1:33	88.498	93.498	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:31
+YvRrE_iPhSE_2473.jpg		no	1:33	1:38	93.498	98.498	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:34
+YvRzL_E400_1958.jpg		no	1:38	1:43	98.498	103.498	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:37
+YvSaE_E400_1959.jpg		no	1:43	1:48	103.498	108.498	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:37
+YvSdQ_iPhSE_2448.mp4		yes	1:48	2:13	108.498	132.577	24.079	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:39
+YvVvP_E400_1975.jpg		no	2:13	2:18	132.577	137.577	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:21
+YvWaD_E400_1978.jpg		no	2:18	2:23	137.577	142.577	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:22
+YvXfR_iPhSE_2452.mp4		yes	2:23	2:47	142.577	166.656	24.079	Prunktreppe im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:36
+YvXiK_iPhSE_2453.mp4		yes	2:47	2:58	166.656	177.708	11.052	Prunksaal im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:37
+YvXkP_iPhSE_2454.mp4		yes	2:58	3:49	177.708	228.815	51.107	Gemäldegalerie im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:38
+YvYgB_E400_1980.jpg		no	3:49	3:54	228.815	233.815	5.000	Neues Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:48
+YwBdW_E400_1983.jpg		no	3:54	3:59	233.815	238.815	5.000	Neues Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 13:20
+YwBhE_E400_1984.jpg		no	3:59	4:04	238.815	243.815	5.000	Neues Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 13:22
+YwBvL_E400_1987.jpg		no	4:04	4:09	243.815	248.815	5.000	Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 13:28
+YwCoY_WebDl_1912.jpg		no	4:09	4:14	248.815	253.815	5.000	Im Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 13:37
+YwCrG_iPhSE_2471.jpg		no	4:14	4:19	253.815	258.815	5.000	Im Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 13:38
+YwCsR_E400_1993.jpg		no	4:19	4:24	258.815	263.815	5.000	Im Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Lustheim	21.11.19 (Do) 13:38
+YwEjP_E400_1996.jpg		no	4:24	4:29	263.815	268.815	5.000	Im Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Lustheim	21.11.19 (Do) 13:57
+YwEvX_E400_1998.jpg		no	4:29	4:34	268.815	273.815	5.000	Im Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Lustheim	21.11.19 (Do) 14:02
+YwEwP_E400_2000.jpg		no	4:34	4:39	273.815	278.815	5.000	Im Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Lustheim	21.11.19 (Do) 14:02
+YwEyB_E400_2001.jpg		no	4:39	4:44	278.815	283.815	5.000	Im Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Lustheim	21.11.19 (Do) 14:03
+YwFbH_E400_2002.jpg		no	4:44	4:49	283.815	288.815	5.000	Neues Schloß Schleißheim	Oberschleißheim	Schloß Lustheim	21.11.19 (Do) 14:04
+YwFhP_E400_2006.jpg		no	4:49	4:54	288.815	293.815	5.000	Im Park von Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 14:07
+YzYkJ_iPhSE_2477.mp4		yes	4:54	5:16	293.815	315.943	22.128	Im Park von Schleißheim	Oberschleißheim	Schloß Schleißheim	22.11.19 (Fr) 8:21
+YzYzG_iPhSE_2479.jpg		no	5:16	5:21	315.943	320.943	5.000	Schloß Lustheim im Park von Schleißheim	Oberschleißheim	Schloß Schleißheim	22.11.19 (Fr) 8:28
+YzZrZ_iPhSE_2480.jpg		no	5:21	5:26	320.943	325.943	5.000	Im Park von Schleißheim	Oberschleißheim	Schloß Lustheim	22.11.19 (Fr) 8:36
+ZbHtO_WebDl_1913.jpg		no	5:26	5:31	325.943	330.943	5.000	In der Burg Trausnitz ob Landshut	Landshut		22.11.19 (Fr) 15:00
+ZbIqQ_WebDl_1914.jpg		no	5:31	5:36	330.943	335.943	5.000	In der Burg Trausnitz ob Landshut	Landshut		22.11.19 (Fr) 15:10
+ZbLvA_iPhSE_2485.jpg		no	5:36	5:41	335.943	340.943	5.000	Blick auf Landshut von der Burg Trausnitz	Landshut		22.11.19 (Fr) 15:45
+ZbLvV_iPhSE_2478.mp4		yes	5:41	5:51	340.943	350.974	10.031	Blick auf Landshut von der Burg Trausnitz	Landshut		22.11.19 (Fr) 15:46
+ZeYuM_E400_2008.jpg		no	5:51	5:56	350.974	355.974	5.000	Morgenspaziergang an der Isar in Landshut	Landshut		23.11.19 (Sa) 8:50
+ZeZmV_E400_2013.jpg		no	5:56	6:01	355.974	360.974	5.000	Blick auf die Burg Trausnitz oberhalb von Landshut	Landshut		23.11.19 (Sa) 8:58
+ZeZtT_E400_2016.jpg		no	6:01	6:06	360.974	365.974	5.000	Blick auf die Martinskirche von der Isar in Landshut	Landshut		23.11.19 (Sa) 9:01
+ZfDkX_E400_2018.jpg		no	6:06	6:11	365.974	370.974	5.000	In der Altstadt von Landshut	Landshut		23.11.19 (Sa) 9:42
+ZfDpS_WebDl_1915.jpg		no	6:11	6:16	370.974	375.974	5.000	Die Stadtresidenz in Landshut	Landshut		23.11.19 (Sa) 9:45
+ZfEmU_WebDl_1916.jpg		no	6:16	6:21	375.974	380.974	5.000	In der Stadtresidenz in Landshut	Landshut		23.11.19 (Sa) 9:55
+ZfGgY_WebDl_1917.jpg		no	6:21	6:26	380.974	385.974	5.000	In der Stadtresidenz in Landshut	Landshut		23.11.19 (Sa) 10:15
+ZfHeA_WebDl_1918.jpg		no	6:26	6:31	385.974	390.974	5.000	In der Stadtresidenz in Landshut	Landshut		23.11.19 (Sa) 10:25
+ZfKkH_E400_2019.jpg		no	6:31	6:36	390.974	395.974	5.000	Blick auf die Martinskirche in Landshut	Landshut		23.11.19 (Sa) 11:01
+ZgGiZ_E400_2020.jpg		no	6:36	6:41	395.974	400.974	5.000	In der Asamkirche in Rohr in Niederbayern	Rohr in Niederbayern	Asamkirche	23.11.19 (Sa) 15:08
+ZgGkF_E400_2023.jpg		no	6:41	6:46	400.974	405.974	5.000	In der Asamkirche in Rohr in Niederbayern	Rohr in Niederbayern	Asamkirche	23.11.19 (Sa) 15:09
+ZgGmO_E400_2027.jpg		no	6:46	6:51	405.974	410.974	5.000	In der Asamkirche in Rohr in Niederbayern	Rohr in Niederbayern	Asamkirche	23.11.19 (Sa) 15:10
+ZgGuM_E400_2033.jpg		no	6:51	6:56	410.974	415.974	5.000	In der Asamkirche in Rohr in Niederbayern	Rohr in Niederbayern	Asamkirche	23.11.19 (Sa) 15:13
+ZgGvZ_E400_2034.jpg		no	6:56	7:01	415.974	420.974	5.000	In der Asamkirche in Rohr in Niederbayern	Rohr in Niederbayern	Asamkirche	23.11.19 (Sa) 15:14
+ZgMrG_WebDl_1919.jpg		no	7:01	7:06	420.974	425.974	5.000	Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	23.11.19 (Sa) 16:20
+ZjPcW_E400_2038.jpg		no	7:06	7:11	425.974	430.974	5.000	Morgenstimmung an der Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	24.11.19 (So) 7:26
+ZjPkE_E400_2043.jpg		no	7:11	7:16	430.974	435.974	5.000	Morgenstimmung an der Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	24.11.19 (So) 7:29
+ZjPzG_E400_2047.jpg		no	7:16	7:21	435.974	440.974	5.000	Janos an der Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	24.11.19 (So) 7:36
+ZjQcN_E400_2051.jpg		no	7:21	7:26	440.974	445.974	5.000	Frühstück an der Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	24.11.19 (So) 7:37
+ZjVoV_E400_2056.jpg		no	7:26	7:31	445.974	450.974	5.000	Morgenspaziergang an der Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	24.11.19 (So) 8:39
+ZjVrB_E400_2057.jpg		no	7:31	7:36	450.974	455.974	5.000	Morgenspaziergang an der Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	24.11.19 (So) 8:40
+ZjWmG_E400_2066.jpg		no	7:36	7:41	455.974	460.974	5.000	Morgenspaziergang an der Burg Prunn oberhalb der Altmühl	Riedenburg	Schloß Prunn	24.11.19 (So) 8:49
+ZlFdX_Scrsh_9348.jpg		no	7:41	7:46	460.974	465.974	5.000				24.11.19 (So) 15:20
+ZlFdY_Scrsh_9349.jpg		no	7:46	7:51	465.974	470.974	5.000				24.11.19 (So) 15:20
