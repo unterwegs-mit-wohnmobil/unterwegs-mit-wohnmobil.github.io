@@ -1,0 +1,72 @@
+;FFMETADATA1
+language=ger
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=61213
+title=Start
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=61213
+END=121213
+title=7.10.25 (Di) 9:19 Erndtebrück Bei Erndtebrück zwischen Siegen und Bad Berleburg
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=121213
+END=180762
+title=11.10.25 (Sa) 13:10 Horn-Bad Meinberg Externsteine Die Externsteine bei Horn nordöstlich von Paderborn
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=180762
+END=243276
+title=13.10.25 (Mo) 9:47 Hannover Bult In der Tierärztlichen Hochschule Hannover
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=243276
+END=288276
+title=18.10.25 (Sa) 8:59 Marienmünster Abtei Marienmünster nordwestlich von Höxter
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=288276
+END=346193
+title=18.10.25 (Sa) 16:26 Diemelsee Heringhausen Am Diemelsee östlich von Brilon
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=346193
+END=404091
+title=19.10.25 (So) 13:22 Meschede In Meschede an der Ruhr
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=404091
+END=447651
+title=23.10.25 (Do) 9:24 Gummersbach Bruch An der Aggertalsperre nordöstlich von Gummersbach
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=447651
+END=525744
+title=24.10.25 (Fr) 17:08 Nümbrecht Marienberghausen In der "Bonten Kerke" in Marienberghausen südlich von Gummersbach
+language=ger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=525744
+END=555760
+title=25.10.25 (Sa) 8:37 Nümbrecht Homburg Schloß Homburg bei Nümbrecht südlich von Gummersbach
+language=ger
+
