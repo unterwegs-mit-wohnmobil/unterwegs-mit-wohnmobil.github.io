@@ -4,7 +4,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     // --- KONFIGURATION ---
-    const DISABLE_ON_SAFARI = true; // Auf 'false' setzen, um Kapitel in Safari zu erlauben
+    const DISABLE_ON_SAFARI = false; // Auf 'false' setzen, um Kapitel in Safari zu erlauben
 
     // --- ELEMENTE SUCHEN ---
     const video = document.getElementById('player');
