@@ -1,0 +1,31 @@
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+000_CnPq_M50_0230.jpg		no	0:00	0:05	0.000	5.000	5.000	Der Glaserhof westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:45
+CcFi_M50_0219.jpg		no	0:05	0:10	5.000	10.000	5.000	An der Kammel in Krumbach	Krumbach	Zentrum	16.7.21 (Fr) 8:37
+CcKj_M50_0221.jpg		no	0:10	0:15	10.000	15.000	5.000	An der Kammel in Krumbach	Krumbach	Zentrum	16.7.21 (Fr) 8:39
+CcLa_M50_0222.jpg		no	0:15	0:20	15.000	20.000	5.000	An der Kammel in Krumbach	Krumbach	Zentrum	16.7.21 (Fr) 8:39
+CcRw_M50_0225.jpg		no	0:20	0:25	20.000	25.000	5.000	St. Michael in Krumbach	Krumbach	Zentrum	16.7.21 (Fr) 8:42
+CcUw_M50_0226.jpg		no	0:25	0:30	25.000	30.000	5.000	An der Kammel in Krumbach	Krumbach	Zentrum	16.7.21 (Fr) 8:44
+CnOu_M50_0228.jpg		no	0:30	0:35	30.000	35.000	5.000	Der Glaserhof westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:45
+CnPq_M50_0230.jpg		no	0:35	0:40	35.000	40.000	5.000	Der Glaserhof westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:45
+CnRc_M50_0232.jpg		no	0:40	0:45	40.000	45.000	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:46
+CnRv_M50_0233.jpg		no	0:45	0:50	45.000	50.000	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:46
+CnSd_M50_0234.jpg		no	0:50	0:55	50.000	55.000	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:46
+CoBg_M50_0235.jpg		no	0:55	1:00	55.000	60.000	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:50
+CoIg_M50_0239.jpg		no	1:00	1:05	60.000	65.000	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:53
+CoJm_M50_0241.jpg		no	1:05	1:10	65.000	70.000	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:54
+CoLc_M50_0245.jpg		no	1:10	1:15	70.000	75.000	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 10:55
+CrPz_M50_0252.mp4		yes	1:15	1:38	75.000	98.405	23.405	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:30
+CrSp_M50_0254.jpg		no	1:38	1:43	98.405	103.405	5.000	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:32
+CrVh_M50_0256.jpg		no	1:43	1:48	103.405	108.405	5.000	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:33
+CrYh_M50_0259.jpg		no	1:48	1:53	108.405	113.405	5.000	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:34
+CsEq_M50_0263.mp4		yes	1:53	2:16	113.405	135.975	22.570	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:37
+CsIa_M50_0264.jpg		no	2:16	2:21	135.975	140.975	5.000	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:38
+CsUp_M50_0265.mp4		yes	2:21	2:39	140.975	158.784	17.809	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:44
+CtIk_M50_0266.mp4		yes	2:39	2:56	158.784	176.268	17.484	Im Antikwerk (Glaserhof) westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:50
+CtLo_M50_0267.mp4		yes	2:56	3:18	176.268	198.489	22.221	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:51
+CtOi_M50_0269.jpg		no	3:18	3:23	198.489	203.489	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:52
+CtQy_M50_0270.jpg		no	3:23	3:28	203.489	208.489	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:53
+CtTb_M50_0272.jpg		no	3:28	3:33	208.489	213.489	5.000	Im Garten des Glaserhofs westlich von Krumbach	Breitenthal	Glaserhof	16.7.21 (Fr) 11:54
+ErJc_M50_0276.jpg		no	3:33	3:38	213.489	218.489	5.000	Abendstimmung über Krumbach	Krumbach	Sportgelände Jahnstraße	16.7.21 (Fr) 21:13
+EvLo_Scrsh_9362.jpg		no	3:38	3:43	218.489	223.489	5.000				16.7.21 (Fr) 22:00
+EvLp_Scrsh_9361.jpg		no	3:43	3:48	223.489	228.489	5.000				16.7.21 (Fr) 22:00

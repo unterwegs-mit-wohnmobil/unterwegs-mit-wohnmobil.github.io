@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Reisevideos WebApp">
+<title>Weißenburg und Ansbach 2018</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index_muted.html">← Übersicht</a>
+  <div class="title">Weißenburg und Ansbach 2018</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  <button id="unmute-btn" style="display: none;">🔊 Ton an</button>
+  <a href="2018_11_Franken_thumbs_muted.html">🖼 Bilder</a>
+  <a href="../index_muted.html#2018_11_Franken">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls autoplay muted playsinline poster="2018_11_Franken.jpg">
+        <source src="2018_11_Franken.mp4" type="video/mp4">
+        <track id="native-track" kind="chapters" src="2018_11_Franken.vtt" srclang="de" label="Kapitel" default>
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)" style="display: none;">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<script src="../chapters.js"></script>
+
+</body>
+</html>

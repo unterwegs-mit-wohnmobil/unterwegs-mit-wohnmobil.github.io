@@ -1,0 +1,54 @@
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+000_LrJo_E400_0115.jpg		no	0:00	0:05	0.000	5.000	5.000	Morgenspaziergang an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	14.4.19 (So) 8:18
+DxBh_iPhSE_1179.jpg		no	0:05	0:10	5.000	10.000	5.000	Grabkreuze in Gschnaidt bei Altusried	Altusried	Gschnaidt	12.4.19 (Fr) 18:18
+HlHe_iPhSE_1182.jpg		no	0:10	0:15	10.000	15.000	5.000	In der Breitachklamm bei Oberstdorf	Oberstdorf	Breitachklamm	13.4.19 (Sa) 11:37
+HqBq_iPhSE_1185.jpg		no	0:15	0:20	15.000	20.000	5.000	In der Breitachklamm bei Oberstdorf	Oberstdorf	Breitachklamm	13.4.19 (Sa) 12:31
+HqSo_iPhSE_1186.jpg		no	0:20	0:25	20.000	25.000	5.000	Hier durften nur Gerlinde und Janos durchgehen	Oberstdorf	Breitachklamm	13.4.19 (Sa) 12:39
+HrDe_iPhSE_1189.jpg		no	0:25	0:30	25.000	30.000	5.000	In der Breitachklamm bei Oberstdorf	Oberstdorf	Breitachklamm	13.4.19 (Sa) 12:43
+HrHp_iPhSE_1190.jpg		no	0:30	0:35	30.000	35.000	5.000	In der Breitachklamm bei Oberstdorf	Oberstdorf	Breitachklamm	13.4.19 (Sa) 12:45
+HrKa_iPhSE_1191.jpg		no	0:35	0:40	35.000	40.000	5.000	In der Breitachklamm bei Oberstdorf	Oberstdorf	Breitachklamm	13.4.19 (Sa) 12:46
+HwSm_iPhSE_1191_Breitachklamm.mp4		yes	0:40	1:14	40.000	74.234	34.234	Breitachklamm			13.4.19 (Sa) 10:53
+HzRp_iPhSE_1197.jpg		no	1:14	1:19	74.234	79.234	5.000	Kart-Ausflug am Jochpaß oberhalb Hindelang	Hindelang	Oberjoch	13.4.19 (Sa) 14:20
+HzRv_iPhSE_1202.jpg		no	1:19	1:24	79.234	84.234	5.000	Kart-Ausflug am Jochpaß oberhalb Hindelang	Hindelang	Oberjoch	13.4.19 (Sa) 14:20
+IbJi_iPhSE_1206.jpg		no	1:24	1:29	84.234	89.234	5.000	Pause an der Kanzel am Jochpaß oberhalb Hindelang	Hindelang	Oberjoch	13.4.19 (Sa) 14:39
+IjVz_iPhSE_1208.jpg		no	1:29	1:34	89.234	94.234	5.000	Ruhiger Nachtplatz an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	13.4.19 (Sa) 16:14
+LrHd_E400_0113.jpg		no	1:34	1:39	94.234	99.234	5.000	Morgenspaziergang an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	14.4.19 (So) 8:17
+LrJo_E400_0115.jpg		no	1:39	1:44	99.234	104.234	5.000	Morgenspaziergang an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	14.4.19 (So) 8:18
+LrLt_E400_0117.jpg		no	1:44	1:49	104.234	109.234	5.000	Morgenspaziergang an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	14.4.19 (So) 8:19
+LrPs_E400_0120.jpg		no	1:49	1:54	109.234	114.234	5.000	Morgenspaziergang an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	14.4.19 (So) 8:20
+LsAr_E400_0127.jpg		no	1:54	1:59	114.234	119.234	5.000	Morgenspaziergang an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	14.4.19 (So) 8:25
+QmPw_E400_0140.jpg		no	1:59	2:04	119.234	124.234	5.000	Der Falkenstein im Morgennebel	Vils	Schönbichl	15.4.19 (Mo) 7:49
+QnYx_E400_0143.jpg		no	2:04	2:09	124.234	129.234	5.000	Die Pfrontner Pfarrkirche St. Nikolaus	Pfronten		15.4.19 (Mo) 8:04
+QoBc_E400_0148.jpg		no	2:09	2:14	129.234	134.234	5.000	Mein Elternhaus in Pfronten-Kreuzegg	Pfronten		15.4.19 (Mo) 8:05
+QoCa_E400_0149.jpg		no	2:14	2:19	134.234	139.234	5.000	Die Pfrontner Pfarrkirche St. Nikolaus	Pfronten		15.4.19 (Mo) 8:05
+QoYb_E400_0153.jpg		no	2:19	2:24	139.234	144.234	5.000	Am Weissensee	Füssen	Weißensee	15.4.19 (Mo) 8:15
+QrVv_E400_0155.jpg		no	2:24	2:29	144.234	149.234	5.000	An der Talstation der Tegelbergbahn	Schwangau	Tegelberg	15.4.19 (Mo) 8:48
+QtKs_E400_0169.jpg		no	2:29	2:34	149.234	154.234	5.000	Schloß Neuschwanstein (aus der Tegelbergbahn)	Schwangau	Tegelberg	15.4.19 (Mo) 9:05
+QuGi_E400_0172.jpg		no	2:34	2:39	154.234	159.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:15
+QuOj_E400_0179.jpg		no	2:39	2:44	159.234	164.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:18
+QuSq_E400_0183.jpg		no	2:44	2:49	164.234	169.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:20
+QuWc_E400_0187.jpg		no	2:49	2:54	169.234	174.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:22
+QvDv_E400_0188.jpg		no	2:54	2:59	174.234	179.234	5.000	Auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:25
+QvEl_E400_0189.jpg		no	2:59	3:04	179.234	184.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:25
+QvIj_E400_0191.jpg		no	3:04	3:09	184.234	189.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:27
+QvRg_E400_0194.jpg		no	3:09	3:14	189.234	194.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:31
+QwQk_E400_0202.jpg		no	3:14	3:19	194.234	199.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:42
+QwVe_E400_0206.jpg		no	3:19	3:24	199.234	204.234	5.000	Tiefblick auf Füssen, den Forgensee und auf St. Coloman vom Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:44
+QwZd_E400_0211.jpg		no	3:24	3:29	204.234	209.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:45
+QxBj_E400_0215.jpg		no	3:29	3:34	209.234	214.234	5.000	Tiefblick auf Füssen, Schwangau und den Forgensee vom Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:46
+QxCe_E400_0217.jpg		no	3:34	3:39	214.234	219.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:47
+QxEf_E400_0218.jpg		no	3:39	3:44	219.234	224.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:48
+QxEj_E400_0219.jpg		no	3:44	3:49	224.234	229.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:48
+QxJi_E400_0221.jpg		no	3:49	3:54	229.234	234.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:50
+QxQp_E400_0228.jpg		no	3:54	3:59	234.234	239.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 9:53
+RaRh_E400_0243.jpg		no	3:59	4:04	239.234	244.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 10:27
+RbEl_E400_0248.jpg		no	4:04	4:09	244.234	249.234	5.000	Tiefblick auf St. Coloman vom Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 10:33
+RbUs_E400_0254.jpg		no	4:09	4:14	249.234	254.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 10:40
+RcCd_E400_0255.jpg		no	4:14	4:19	254.234	259.234	5.000	Spaziergang auf dem winterlichen Tegelberg	Schwangau	Tegelberg	15.4.19 (Mo) 10:43
+RcQl_E400_0256.jpg		no	4:19	4:24	259.234	264.234	5.000	Schloß Neuschwanstein (aus der Tegelbergbahn)	Schwangau	Tegelberg	15.4.19 (Mo) 10:49
+RcRd_E400_0259.jpg		no	4:24	4:29	264.234	269.234	5.000	Schloß Neuschwanstein (aus der Tegelbergbahn)	Schwangau	Tegelberg	15.4.19 (Mo) 10:50
+RcRr_E400_0260.jpg		no	4:29	4:34	269.234	274.234	5.000	Schloß Neuschwanstein (aus der Tegelbergbahn)	Schwangau	Tegelberg	15.4.19 (Mo) 10:50
+RcSp_E400_0263.jpg		no	4:34	4:39	274.234	279.234	5.000	Schloß Neuschwanstein (aus der Tegelbergbahn)	Schwangau	Tegelberg	15.4.19 (Mo) 10:50
+ReUo_E400_0277.jpg		no	4:39	4:44	279.234	284.234	5.000	Das malerisch gelegene St. Coloman	Schwangau	Tegelberg	15.4.19 (Mo) 11:14
+RiWm_Scrsh_9335.jpg		no	4:44	4:49	284.234	289.234	5.000				15.4.19 (Mo) 12:00
+RiWn_Scrsh_9336.jpg		no	4:49	4:54	289.234	294.234	5.000				15.4.19 (Mo) 12:00
