@@ -1,5 +1,5 @@
 /* =====================================================
-   chapters.js - CLEAN VERSION (No Control Manipulation)
+   chapters.js 
    ===================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
