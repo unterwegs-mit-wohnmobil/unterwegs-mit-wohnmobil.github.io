@@ -194,8 +194,29 @@ if ((DISABLE_ON_SAFARI && isSafari) || isOldAndroid) {
         }
         lastClick = now;
     });
+// --- 4. ZEITPUNKT AUS URL LADEN (?t=ssss.ttt) ---
+    const urlParams = new URLSearchParams(window.location.search);
+    const startTime = urlParams.get('t');
 
-    // --- 4. HELPER ---
+    if (startTime) {
+        const startSeconds = parseFloat(startTime);
+        
+        // Prüfen, ob es eine gültige Zahl ist und über 0 liegt
+        if (!isNaN(startSeconds) && startSeconds > 0) {
+            
+            // Wir warten kurz, bis das Video bereit ist, die Zeit zu setzen
+            video.addEventListener('loadedmetadata', () => {
+                video.currentTime = startSeconds;
+            }, { once: true });
+
+            // Falls die Metadaten schon da sind (Browser-Cache)
+            if (video.readyState >= 1) {
+                video.currentTime = startSeconds;
+            }
+        }
+    }
+
+    // --- 5. HELPER ---
     function renderButtons(chapters) {
         nav.innerHTML = '';
         chapters.forEach(ch => {
