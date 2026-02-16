@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_RcNkA_E400_1371.jpg		no	0:00	0:05	0.000	5.000	5.000	Tiefblick von St.-Julien-de-Jonzy ins Brionnais	Brionnais	St.-Julien-de-Jonzy	11.10.19 (Fr) 14:26
 QcZeJ_iPhSE_2319.jpg		no	0:05	0:10	5.000	10.000	5.000	Der Fluß Dessoubre vor dem Zusammenfluß mit dem Doubs	St. Hippolyte		6.10.19 (So) 9:42
 QcZsD_iPhSE_2312.jpg		no	0:10	0:15	10.000	15.000	5.000	Der Doubs in St. Hippolyte	St. Hippolyte		6.10.19 (So) 9:48

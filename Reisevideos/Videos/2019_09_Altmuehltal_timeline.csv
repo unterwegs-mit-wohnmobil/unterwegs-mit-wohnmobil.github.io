@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_MyMxK_WebDl_1905.jpg		no	0:00	0:05	0.000	5.000	5.000	Die Altmühl bei Dollnstein	Dollnstein		20.9.19 (Fr) 15:04
 MsQuA_WebDl_1902.jpg		no	0:05	0:10	5.000	10.000	5.000	Im Park von Garten Dehner in Rain am Lech	Rain am Lech	Gartencenter Dehner	19.9.19 (Do) 10:30
 MsQwI_WebDl_1903.jpg		no	0:10	0:15	10.000	15.000	5.000	Im Park von Garten Dehner in Rain am Lech	Rain am Lech	Gartencenter Dehner	19.9.19 (Do) 10:31

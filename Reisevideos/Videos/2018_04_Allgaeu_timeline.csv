@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_PeMiK_iPhSE_0200.jpg		no	0:00	0:05	0.000	5.000	5.000	Gereute oberhalb von Wertach	Wertach	Gereute	9.4.18 (Mo) 8:35
 OrCxR_E400_0003.jpg		no	0:05	0:10	5.000	10.000	5.000	Prämonstratenserklosterkirche Rot an der Rot	Rot an der Rot		6.4.18 (Fr) 15:21
 OrCyJ_E400_0004.jpg		no	0:10	0:15	10.000	15.000	5.000	Prämonstratenserklosterkirche Rot an der Rot	Rot an der Rot		6.4.18 (Fr) 15:22

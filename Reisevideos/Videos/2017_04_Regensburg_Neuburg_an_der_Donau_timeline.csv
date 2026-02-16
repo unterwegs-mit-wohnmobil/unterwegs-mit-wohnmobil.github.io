@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_MzTk_E400_7198.jpg		no	0:00	0:05	0.000	5.000	5.000	Die Eiserne Brücke in Regensburg	Regensburg		23.4.17 (So) 10:24
 DzXd_E400_7120.jpg		no	0:05	0:10	5.000	10.000	5.000	Im Park von Dehner im Rain am Lech	Rain am Lech	Gartencenter Dehner	21.4.17 (Fr) 14:29
 EaOo_E400_7126.jpg		no	0:10	0:15	10.000	15.000	5.000	Im Park von Dehner im Rain am Lech	Rain am Lech	Gartencenter Dehner	21.4.17 (Fr) 14:37

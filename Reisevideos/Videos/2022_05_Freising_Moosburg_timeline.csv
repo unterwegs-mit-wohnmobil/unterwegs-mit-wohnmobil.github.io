@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_NzJn_M50_1534.jpg		no	0:00	0:05	0.000	5.000	5.000	St.Kastulus in Moosburg an der Isar	Moosburg	Altstadt	31.5.22 (Di) 9:52
 FnCh_M50_1482.jpg		no	0:05	0:10	5.000	10.000	5.000	Im Dom zu Freising	Freising	Domberg	29.5.22 (So) 16:31
 FnCy_M50_1483.jpg		no	0:10	0:15	10.000	15.000	5.000	Im Dom zu Freising	Freising	Domberg	29.5.22 (So) 16:31

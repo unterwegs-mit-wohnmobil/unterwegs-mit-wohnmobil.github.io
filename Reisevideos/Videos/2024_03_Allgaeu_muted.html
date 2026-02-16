@@ -30,12 +30,12 @@
     </span>
   </noscript>
   <button id="unmute-btn" style="display: none;">🔊 Ton an</button>
-  <a href="2024_03_Allgaeu_thumbs_muted.html">🖼 Bilder</a>
+  <a href="2024_03_Allgaeu_thumbs_muted.html" title="Galerie oben">🖼</a><a id="thumbs-link" href="2024_03_Allgaeu_thumbs_muted.html" title="Galerie Position wie Video">Bilder</a>
   <a href="../index_muted.html#2024_03_Allgaeu">↺ Zurück zum Video</a>
 </div>
 
 <div id="video-wrapper">
-    <video id="player" controls autoplay muted playsinline poster="2024_03_Allgaeu.jpg">
+    <video id="player" controls autoplay muted playsinline poster="2024_03_Allgaeu.jpg" data-timeline='{"0.000":"000_SxNjV_iPhSE_4035","5.000":"StTmU_M50_3779","10.000":"StTqV_M50_3783","15.000":"StTrQ_M50_3784","20.000":"StTsK_M50_3786","25.000":"StTsS_M50_3787","30.000":"StTuH_M50_3789","35.000":"StTvJ_M50_3790","40.000":"StUaC_M50_3792","45.000":"StUhZ_M50_3794","50.000":"StWhS_M50_3799","55.000":"StWyD_M50_3802","60.000":"StXhG_M50_3805","65.000":"StXiT_M50_3806","70.000":"StXtI_M50_3808","75.000":"StZnB_M50_3811","80.000":"SxMrP_iPhSE_4032","99.686":"SxNjV_iPhSE_4035","104.686":"TcYmT_M50_3814","109.686":"TcYnD_M50_3815","114.686":"TcYsA_M50_3818","119.686":"TcYvQ_M50_3821","124.686":"TcYwG_M50_3822","129.686":"TcYyS_M50_3826","134.686":"TcYzI_M50_3827","139.686":"TcZbX_M50_3829","144.686":"TcZmL_M50_3834","149.686":"TcZoH_M50_3837","154.686":"TcZqM_M50_3840","159.686":"TcZuM_M50_3843","164.686":"TdFtU_M50_3846","169.686":"TdHzN_M50_3852"}'>
         <source src="2024_03_Allgaeu.mp4" type="video/mp4">
         <track id="native-track" kind="chapters" src="2024_03_Allgaeu.vtt" srclang="de" label="Kapitel" default>
     </video>
@@ -47,7 +47,7 @@
     <nav id="chapter-nav" class="hidden"></nav>
 </div>
 
-<script src="../chapters.js"></script>
+<script src="../video.js"></script>
 
 </body>
 </html>

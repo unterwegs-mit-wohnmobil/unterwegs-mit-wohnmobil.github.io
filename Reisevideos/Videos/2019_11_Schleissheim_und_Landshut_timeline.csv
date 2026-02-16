@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_YvYgB_E400_1980.jpg		no	0:00	0:05	0.000	5.000	5.000	Neues Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 12:48
 YvPaJ_E400_1923.jpg		no	0:05	0:10	5.000	10.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:04
 YvPcH_E400_1924.jpg		no	0:10	0:15	10.000	15.000	5.000	Im Neuen Schloß Schleißheim	Oberschleißheim	Schloß Schleißheim	21.11.19 (Do) 11:05

@@ -30,12 +30,12 @@
     </span>
   </noscript>
   <button id="unmute-btn" style="display: none;">🔊 Ton an</button>
-  <a href="2019_04_Allgaeu_thumbs_muted.html">🖼 Bilder</a>
+  <a href="2019_04_Allgaeu_thumbs_muted.html" title="Galerie oben">🖼</a><a id="thumbs-link" href="2019_04_Allgaeu_thumbs_muted.html" title="Galerie Position wie Video">Bilder</a>
   <a href="../index_muted.html#2019_04_Allgaeu">↺ Zurück zum Video</a>
 </div>
 
 <div id="video-wrapper">
-    <video id="player" controls autoplay muted playsinline poster="2019_04_Allgaeu.jpg">
+    <video id="player" controls autoplay muted playsinline poster="2019_04_Allgaeu.jpg" data-timeline='{"0.000":"000_LrJo_E400_0115","5.000":"DxBh_iPhSE_1179","10.000":"HlHe_iPhSE_1182","15.000":"HqBq_iPhSE_1185","20.000":"HqSo_iPhSE_1186","25.000":"HrDe_iPhSE_1189","30.000":"HrHp_iPhSE_1190","35.000":"HrKa_iPhSE_1191","40.000":"HwSm_iPhSE_1191_Breitachklamm","74.234":"HzRp_iPhSE_1197","79.234":"HzRv_iPhSE_1202","84.234":"IbJi_iPhSE_1206","89.234":"IjVz_iPhSE_1208","94.234":"LrHd_E400_0113","99.234":"LrJo_E400_0115","104.234":"LrLt_E400_0117","109.234":"LrPs_E400_0120","114.234":"LsAr_E400_0127","119.234":"QmPw_E400_0140","124.234":"QnYx_E400_0143","129.234":"QoBc_E400_0148","134.234":"QoCa_E400_0149","139.234":"QoYb_E400_0153","144.234":"QrVv_E400_0155","149.234":"QtKs_E400_0169","154.234":"QuGi_E400_0172","159.234":"QuOj_E400_0179","164.234":"QuSq_E400_0183","169.234":"QuWc_E400_0187","174.234":"QvDv_E400_0188","179.234":"QvEl_E400_0189","184.234":"QvIj_E400_0191","189.234":"QvRg_E400_0194","194.234":"QwQk_E400_0202","199.234":"QwVe_E400_0206","204.234":"QwZd_E400_0211","209.234":"QxBj_E400_0215","214.234":"QxCe_E400_0217","219.234":"QxEf_E400_0218","224.234":"QxEj_E400_0219","229.234":"QxJi_E400_0221","234.234":"QxQp_E400_0228","239.234":"RaRh_E400_0243","244.234":"RbEl_E400_0248","249.234":"RbUs_E400_0254","254.234":"RcCd_E400_0255","259.234":"RcQl_E400_0256","264.234":"RcRd_E400_0259","269.234":"RcRr_E400_0260","274.234":"RcSp_E400_0263","279.234":"ReUo_E400_0277","284.234":"RiWm_Scrsh_9335","289.234":"RiWn_Scrsh_9336"}'>
         <source src="2019_04_Allgaeu.mp4" type="video/mp4">
         <track id="native-track" kind="chapters" src="2019_04_Allgaeu.vtt" srclang="de" label="Kapitel" default>
     </video>
@@ -47,7 +47,7 @@
     <nav id="chapter-nav" class="hidden"></nav>
 </div>
 
-<script src="../chapters.js"></script>
+<script src="../video.js"></script>
 
 </body>
 </html>

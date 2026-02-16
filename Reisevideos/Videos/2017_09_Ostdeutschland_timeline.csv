@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_FbVdK_E400_8623.jpg		no	0:00	0:05	0.000	5.000	5.000	Schloss Moritzburg bei Dresden	Moritzburg		4.10.17 (Mi) 9:50
 BrHtY_E400_8305.jpg		no	0:05	0:10	5.000	10.000	5.000	Schöner Übernachtungsplatz direkt an der Tauber	Taubertal	Tauberzell	17.9.17 (So) 9:42
 BrRcG_E400_8307.jpg		no	0:10	0:15	10.000	15.000	5.000	Der Riemenschneideraltar in Creglingen	Taubertal	Creglingen	17.9.17 (So) 11:27

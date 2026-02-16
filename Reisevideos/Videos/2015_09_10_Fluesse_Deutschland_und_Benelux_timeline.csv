@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_WhMvH_iPh5s_1001.jpg		no	0:00	0:05	0.000	5.000	5.000	Schleuse am Kanal Nantes-Brest in Malestroit (Bretagne)	Malestroit	Zentrum	14.10.15 (Mi) 9:13
 ReUzP_iPh5s_0114.jpg		no	0:05	0:10	5.000	10.000	5.000	Auf dem Weg zur Landesausstellung 2015 in Ingolstadt	Ingolstadt	Zentrum	18.9.15 (Fr) 9:25
 RfDvS_iPh5s_0116.jpg		no	0:10	0:15	10.000	15.000	5.000	 In der Landesausstellung 2015 in Ingolstadt	Ingolstadt	Zentrum	18.9.15 (Fr) 11:05

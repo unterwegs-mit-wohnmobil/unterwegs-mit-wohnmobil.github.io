@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_LrJo_E400_0115.jpg		no	0:00	0:05	0.000	5.000	5.000	Morgenspaziergang an St.Sebastianskapelle nahe Wertach	Wertach	St. Sebastianskapelle	14.4.19 (So) 8:18
 DxBh_iPhSE_1179.jpg		no	0:05	0:10	5.000	10.000	5.000	Grabkreuze in Gschnaidt bei Altusried	Altusried	Gschnaidt	12.4.19 (Fr) 18:18
 HlHe_iPhSE_1182.jpg		no	0:10	0:15	10.000	15.000	5.000	In der Breitachklamm bei Oberstdorf	Oberstdorf	Breitachklamm	13.4.19 (Sa) 11:37

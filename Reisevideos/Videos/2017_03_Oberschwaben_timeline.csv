@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_HrLw_WebDl_1020.jpg		no	0:00	0:05	0.000	5.000	5.000	Naturschutzgebiet Federsee	Bad Buchau	Federsee	5.3.17 (So) 17:00
 GjSs_iPh5s_2538.jpg		no	0:05	0:10	5.000	10.000	5.000	Spaziergang am Günzstausee bei Breitenthal	Krumbach	Breitenthal	5.3.17 (So) 10:39
 GkHs_iPh5s_2543.jpg		no	0:10	0:15	10.000	15.000	5.000	Spaziergang am Günzstausee bei Breitenthal	Krumbach	Breitenthal	5.3.17 (So) 10:46

@@ -30,12 +30,12 @@
     </span>
   </noscript>
   <button id="unmute-btn" style="display: none;">🔊 Ton an</button>
-  <a href="2018_11_Franken_thumbs_muted.html">🖼 Bilder</a>
+  <a href="2018_11_Franken_thumbs_muted.html" title="Galerie oben">🖼</a><a id="thumbs-link" href="2018_11_Franken_thumbs_muted.html" title="Galerie Position wie Video">Bilder</a>
   <a href="../index_muted.html#2018_11_Franken">↺ Zurück zum Video</a>
 </div>
 
 <div id="video-wrapper">
-    <video id="player" controls autoplay muted playsinline poster="2018_11_Franken.jpg">
+    <video id="player" controls autoplay muted playsinline poster="2018_11_Franken.jpg" data-timeline='{"0.000":"aaa_NtUh_iPhSE_0878","5.000":"FnWc_iPhSE_0861","10.000":"JjAv_E400_1633","15.000":"JjCb_E400_1634","20.000":"JjDm_iPhSE_0864","25.000":"JjEe_E400_1636","30.000":"JjHu_E400_1639","35.000":"JjHw_iPhSE_0865","40.000":"JjNa_E400_1644","45.000":"JjQc_E400_1647","50.000":"JkHx_E400_1648","55.000":"JlOe_WebDl_1802","60.000":"JlQm_WebDl_1803","65.000":"JoWs_E400_1652","70.000":"JoYj_E400_1655","75.000":"JoZb_E400_1656","80.000":"JpNa_E400_1659","85.000":"JqAs_E400_1662","90.000":"JqNt_iPhSE_0867","95.000":"KkSk_E400_1665","100.000":"KlLb_E400_1670","105.000":"KlNw_E400_1672","110.000":"KlYi_E400_1678","115.000":"KlZm_E400_1679","120.000":"KpNg_E400_1700","125.000":"KqHr_E400_1709","130.000":"KqNd_E400_1713","135.000":"KqNr_E400_1714","140.000":"KqPy_iPhSE_0872","145.000":"KqQd_E400_1717","150.000":"KqYo_E400_1718","155.000":"NtUh_iPhSE_0878","160.000":"NuEo_iPhSE_0882","165.000":"OiXs_WebDl_1805","170.000":"OjCi_WebDl_1806","175.000":"OjQe_WebDl_1808","180.000":"OjXc_WebDl_1809","185.000":"OjZk_WebDl_1810","190.000":"OkGi_WebDl_1811","195.000":"OnXu_E400_1728","200.000":"OtUn_E400_1732","205.000":"OuBs_E400_1733","210.000":"OuDa_E400_1734","215.000":"OuRi_E400_1737","220.000":"OuTi_E400_1738","225.000":"OuUq_E400_1739","230.000":"OvPs_E400_1742","235.000":"OvTx_E400_1743","240.000":"SrQw_iPhSE_0885","245.000":"SuEh_iPhSE_0886","250.000":"SzRg_E400_1744","255.000":"TaDz_E400_1750","260.000":"TeZs_iPhSE_0891","265.000":"TxYn_E400_1752","270.000":"TyFb_E400_1758","275.000":"TyIj_E400_1761","280.000":"TyJa_E400_1766","285.000":"TyWt_E400_1777","290.000":"TyXd_E400_1780","295.000":"TyZk_E400_1785","300.000":"TzHx_E400_1789","305.000":"UaGm_Scrsh_9334","310.000":"UaGn_Scrsh_9335"}'>
         <source src="2018_11_Franken.mp4" type="video/mp4">
         <track id="native-track" kind="chapters" src="2018_11_Franken.vtt" srclang="de" label="Kapitel" default>
     </video>
@@ -47,7 +47,7 @@
     <nav id="chapter-nav" class="hidden"></nav>
 </div>
 
-<script src="../chapters.js"></script>
+<script src="../video.js"></script>
 
 </body>
 </html>

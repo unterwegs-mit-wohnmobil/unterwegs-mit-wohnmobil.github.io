@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_TlLdV_E400_1220.jpg		no	0:00	0:05	0.000	5.000	5.000	An der Donauquelle oberhalb Furtwangen im Schwarzwald	Schwarzwald-Baar-Kreis	Furtwangen im Schwarzwald	14.9.18 (Fr) 10:41
 SxGwF_E400_1065.jpg		no	0:05	0:10	5.000	10.000	5.000	Im Bibliotheksaal im Kloster Wiblingen (Ulm)	Ulm	Wiblingen	11.9.18 (Di) 13:31
 SxHaA_E400_1069.jpg		no	0:10	0:15	10.000	15.000	5.000	Im Bibliotheksaal im Kloster Wiblingen (Ulm)	Ulm	Wiblingen	11.9.18 (Di) 13:33

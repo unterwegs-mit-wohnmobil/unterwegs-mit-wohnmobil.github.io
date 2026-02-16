@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_IcSfG_E400_8697.jpg		no	0:00	0:05	0.000	5.000	5.000	Spaziergang am Lönsstein in der Lüneburger Heide	Landkreis Celle	Fassberg	20.10.17 (Fr) 10:59
 HtPeC_E400_8678.jpg		no	0:05	0:10	5.000	10.000	5.000	Kloster Wienhausen	Landkreis Celle	Wienhausen	18.10.17 (Mi) 14:28
 HtPfH_E400_8679.jpg		no	0:10	0:15	10.000	15.000	5.000	Kloster Wienhausen	Landkreis Celle	Wienhausen	18.10.17 (Mi) 14:29

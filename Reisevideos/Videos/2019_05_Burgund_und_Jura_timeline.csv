@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_MgRrR_E400_0309.jpg		no	0:00	0:05	0.000	5.000	5.000	Die wunderschöne romanische Kirche in Ottmarsheim	Ottmarsheim		3.5.19 (Fr) 11:42
 MbEvJ_iPhSE_1238.jpg		no	0:05	0:10	5.000	10.000	5.000	An unserem Lieblingsplatz in Fessenheim am Rhein	Fessenheim	Staustufe	2.5.19 (Do) 8:52
 MgPeG_E400_0281.jpg		no	0:10	0:15	10.000	15.000	5.000	In der wunderschönen romanische Kirche in Ottmarsheim	Ottmarsheim		3.5.19 (Fr) 11:13

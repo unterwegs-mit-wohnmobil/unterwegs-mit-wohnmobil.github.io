@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_OaGxAr_M50_2260.jpg		no	0:00	0:05	0.000	5.000	5.000	Das Hochwasserrückhaltebecken Rappenbach	Rot an der Rot	Haslach	26.3.23 (So) 17:39
 NzRwAg_iPhSE_7730.jpg		no	0:05	0:10	5.000	10.000	5.000	Im Antikhof in Günz an der Günz	Westerheim	Günz	23.3.23 (Do) 15:13
 NzRxYe_M50_2178.jpg		no	0:10	0:15	10.000	15.000	5.000	Kuchen ist nichts für Hunde	Westerheim	Günz	23.3.23 (Do) 15:35

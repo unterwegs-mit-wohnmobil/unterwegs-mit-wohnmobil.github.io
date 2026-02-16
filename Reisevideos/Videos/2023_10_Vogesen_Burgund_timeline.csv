@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_NkOmZ_M50_3282.jpg		no	0:00	0:05	0.000	5.000	5.000	Am Marcenaysee bei Marcenay im Burgund	Marcenay	Marcenaysee	16.10.23 (Mo) 18:09
 LqWeA_iPhSE_7900.jpg		no	0:05	0:10	5.000	10.000	5.000	Rheinfähre zwischen Deutschland und Frankreich in Drusenheim im Elsaß	Drusenheim		7.10.23 (Sa) 11:00
 LwQwM_M50_3121.jpg		no	0:10	0:15	10.000	15.000	5.000	Tommy hat ein großes Stöckchen gefunden	Oberhaslach	Nähe Burg Nideck	8.10.23 (So) 15:18

@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 000_HzCr_M50_1625.jpg		no	0:00	0:05	0.000	5.000	5.000	Blick vom Blasienberg bei Kirchheim am Ries zum Ipf	Kirchheim am Ries		22.9.22 (Do) 13:10
 CkIh_M50_1552.jpg		no	0:05	0:10	5.000	10.000	5.000	Wegkapelle von Hans Engel bei Gundelfingen	Gundelfingen	Schönauhof	21.9.22 (Mi) 9:58
 CkKp_M50_1554.jpg		no	0:10	0:15	10.000	15.000	5.000	Wegkapelle von Hans Engel bei Gundelfingen	Gundelfingen	Schönauhof	21.9.22 (Mi) 9:59

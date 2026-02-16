@@ -1,4 +1,4 @@
-###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
 aaa_KmUuE_WebDl_1901.jpg		no	0:00	0:05	0.000	5.000	5.000	Das Kloster Roggenburg	Roggenburg		7.9.19 (Sa) 16:05
 KlXpM_iPhSE_2227.jpg		no	0:05	0:10	5.000	10.000	5.000	Antikhof im Glaserhof westlich von Krumbach	Breitenthal	Glaserhof	7.9.19 (Sa) 11:43
 KmUuE_WebDl_1901.jpg		no	0:10	0:15	10.000	15.000	5.000	Das Kloster Roggenburg	Roggenburg		7.9.19 (Sa) 16:05
