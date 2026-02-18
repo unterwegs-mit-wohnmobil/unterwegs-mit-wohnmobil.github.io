@@ -11,7 +11,7 @@ body { height: 100vh; padding: 0; margin: 0; }
 img.fillerLinks { width: 0%; height: 1px; opacity: 0.0; filter: alpha(opacity=0); }
 img.viertel { width: 25%; }
 </style>
-<title>Sauerland&nbsp;Herbst&nbsp;2025</title>
+<title>Unterwegs&nbsp;(mit&nbsp;dem&nbsp;Wohnmobil)</title>
 </head>
 <body onload="toggleFullScreen(event);">
 <div class="container" id="myImage">
@@ -24,7 +24,7 @@ img.viertel { width: 25%; }
  <a href="https://unterwegs-mit-wohnmobil.github.io/medien/Reiseberichte/2025_10_Sauerland/XcPkV_iPh16e_0064.html" onclick="rueckwaerts();return false;"><img class="viertel" src="XcPsR_iPh16e_4950-mitte-0.jpg"></a>
  <a href="XcPsR_iPh16e_4950_dia.html"><img class="viertel" src="XcPsR_iPh16e_4950-mitte-1.jpg"></a>
  <a href="XcPsR_iPh16e_4950_dia.html"><img class="viertel" src="XcPsR_iPh16e_4950-mitte-2.jpg"></a>
- <a href="XlLrD_iPh16e_4958.html" onclick="vorwaerts();return false;"><img class="viertel" src="XcPsR_iPh16e_4950-mitte-3.jpg"></a>
+ <a href="index.htm" onclick="vorwaerts();return false;"><img class="viertel" src="XcPsR_iPh16e_4950-mitte-3.jpg"></a>
  <a><img class="fillerLinks" src="_fillerLinks.jpg" style="clear:left;"></a>
  <a href="https://bing.com/maps/default.aspx?cp=+51.869972~+8.9196417&lvl=13&sp=point.+51.869972_+8.9196417_Foto"><img class="viertel" src="XcPsR_iPh16e_4950-unten-0.jpg"></a>
  <a href="https://www.openstreetmap.org/?mlat=+51.869972&mlon=+8.9196417#map=16/+51.869972/+8.9196417"><img class="viertel" src="XcPsR_iPh16e_4950-unten-1.jpg"></a>
@@ -34,7 +34,7 @@ img.viertel { width: 25%; }
 <script>
 var openWindowParm = "location=no,toolbar=no,menubar=no,status=no,titlebar=no,scrollbars=yes,resizable=yes";
 function rueckwaerts() { window.open("https://unterwegs-mit-wohnmobil.github.io/medien/Reiseberichte/2025_10_Sauerland/XcPkV_iPh16e_0064.html", "_self", openWindowParm) };
-function vorwaerts() { window.open("XlLrD_iPh16e_4958.html", "_self", openWindowParm) };
+function vorwaerts() { window.open("index.htm", "_self", openWindowParm) };
 var element = document.documentElement; // = document.getElementById("myImage")
 var isFullscreen = 0;
 function toggleFullScreen(event) {
@@ -61,7 +61,7 @@ swiperCallback: function() {},
     swiper.handleSwipeGesture(); }, false); },
   handleSwipeGesture: function () {
     if (swiper.touchEndX > swiper.touchStartX) { window.open("https://unterwegs-mit-wohnmobil.github.io/medien/Reiseberichte/2025_10_Sauerland/XcPkV_iPh16e_0064.html", "_self", openWindowParm) }
-    if (swiper.touchEndX < swiper.touchStartX) { window.open("XlLrD_iPh16e_4958.html", "_self", openWindowParm) } },
+    if (swiper.touchEndX < swiper.touchStartX) { window.open("index.htm", "_self", openWindowParm) } },
   swipe: function (direction, movedPixels) { var ret = {}
     ret.direction = direction, ret.movedPixels = movedPixels,  swiper.swiperCallback(ret) } };
 var gestureZone = document.getElementById("myImage"); swiper.init(gestureZone, function(e) { });

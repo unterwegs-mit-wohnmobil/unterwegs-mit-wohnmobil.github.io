@@ -6,9 +6,3 @@ $$$UrlVideos$$$	https://unterwegs-mit-wohnmobil.github.io/medien/Reiseberichte/2
 $$$VerzVideos$$$	github/Medien/Reiseberichte/2025_10_Sauerland/
 VuOqH_iPh16e_0060	Bei Bottenhorn zwischen Marburg und Dillenburg	Regenbogen über Bottenhorn	16	
 XcPkV_iPh16e_0064	Die Externsteine bei Horn nordöstlich von Paderborn	Die Externsteine	14	
-XvRvT_iPh16e_0067	In St. Pankratius in Burgdorf nordöstlich von Hannover	In St. Pankratius	17	
-YlKpI_iPh16e_0072	Am Diemelsee östlich von Brilon	Am Diemelsee	16	
-YlSfL_iPh16e_0074	Auf der Schwalenburg über Schwalefeld nordöstlich von Willingen	Auf der Schwalenburg	21	
-YqOfR_iPh16e_0076	Bei Schmallenberg südwestlich von Winterberg	Bei Schmallenberg	17	
-ZiNtE_iPh16e_0077	An der Aggertalsperre nordöstlich von Gummersbach	An der Aggertalsperre	18	
-ZpBhY_iPh16e_0078	In der "Bonten Kerke" in Marienberghausen südlich von Gummersbach	Marienberghausen	43	

@@ -39,7 +39,7 @@ img.viertel { width: 25%; }
  @media only screen and (min-aspect-ratio: 2138/1080) { img.fillerLinks { width: 6.0%; } } 
  @media only screen and (min-aspect-ratio: 2138/1080) { img.viertel { width: 22.0%; } } 
 </style>
-<title>Sauerland&nbsp;Herbst&nbsp;2025</title>
+<title>Unterwegs&nbsp;(mit&nbsp;dem&nbsp;Wohnmobil)</title>
 </head>
 <body onload="toggleFullScreen(event);">
 <div class="container" id="myImage">
@@ -50,7 +50,7 @@ img.viertel { width: 25%; }
  <a href="VuJgD_iPh16e_4905_dia_hilfe.html"><img class="viertel" src="VuJgD_iPh16e_4905-oben-3.jpg"></a>
   <div class="content"><a>&deg;&nbsp;&deg;&nbsp;&deg;&nbsp;&deg;&nbsp;&deg;</a></div>
  <a><img class="fillerLinks" src="_fillerLinks.jpg" style="clear: left; opacity: 0;"></a>
- <a href="VuJfM_iPh16e_4904_dia.html" onclick="rueckwaerts();return false;"><img class="viertel" src="VuJgD_iPh16e_4905-mitte-0.jpg"></a>
+ <a href="index.htm" onclick="rueckwaerts();return false;"><img class="viertel" src="VuJgD_iPh16e_4905-mitte-0.jpg"></a>
  <a href="VuJgD_iPh16e_4905.html"><img class="viertel" src="VuJgD_iPh16e_4905-mitte-1.jpg"></a>
  <a href="VuJgD_iPh16e_4905.html"><img class="viertel" src="VuJgD_iPh16e_4905-mitte-2.jpg"></a>
  <a href="VuJvO_iPh16e_4908_dia.html" onclick="vorwaerts();return false;"><img class="viertel" src="VuJgD_iPh16e_4905-mitte-3.jpg"></a>
@@ -62,7 +62,7 @@ img.viertel { width: 25%; }
 </div>
 <script>
 var openWindowParm = "location=no,toolbar=no,menubar=no,status=no,titlebar=no,scrollbars=yes,resizable=yes";
-function rueckwaerts() { window.open("VuJfM_iPh16e_4904_dia.html", "_self", openWindowParm) };
+function rueckwaerts() { window.open("index.htm", "_self", openWindowParm) };
 function vorwaerts() { window.open("VuJvO_iPh16e_4908_dia.html", "_self", openWindowParm) };
 var element = document.documentElement; // = document.getElementById("myImage")
 var isFullscreen = 0;
@@ -89,7 +89,7 @@ swiperCallback: function() {},
     swiper.touchEndX = event.changedTouches[0].screenX;
     swiper.handleSwipeGesture(); }, false); },
   handleSwipeGesture: function () {
-    if (swiper.touchEndX > swiper.touchStartX) { window.open("VuJfM_iPh16e_4904_dia.html", "_self", openWindowParm) }
+    if (swiper.touchEndX > swiper.touchStartX) { window.open("index.htm", "_self", openWindowParm) }
     if (swiper.touchEndX < swiper.touchStartX) { window.open("VuJvO_iPh16e_4908_dia.html", "_self", openWindowParm) } },
   swipe: function (direction, movedPixels) { var ret = {}
     ret.direction = direction, ret.movedPixels = movedPixels,  swiper.swiperCallback(ret) } };

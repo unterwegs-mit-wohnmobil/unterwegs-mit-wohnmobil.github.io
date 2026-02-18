@@ -1,0 +1,437 @@
+/* =====================================================
+   Grundlayout
+===================================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; /* Platz für fixed Header */
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* =====================================================
+   Galerie / Index
+===================================================== */
+.responsive {
+  float: left;
+  width: 12.5%; /* Standard 8 Spalten */
+  padding: 6px;
+  scroll-margin-top: 90px; /* Für :target */
+}
+
+@media (max-width: 1400px) {
+  .responsive {
+    width: 20%;
+  }
+}
+@media (max-width: 1200px) {
+  .responsive {
+    width: 25%;
+  }
+}
+@media (max-width: 950px) {
+  .responsive {
+    width: 33.33%;
+  }
+}
+@media (max-width: 700px) {
+  .responsive {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.gallery {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.gallery:hover {
+  border-color: #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Ziel-Kachel-Hervorhebung */
+@keyframes highlight {
+  0% {
+    background-color: #fff8e1;
+    outline-color: #ffcc66;
+  }
+  50% {
+    background-color: #fff0b3;
+    outline-color: #ffbb33;
+  }
+  100% {
+    background-color: #fff8e1;
+    outline-color: #ffcc66;
+  }
+}
+
+.responsive:target {
+  outline: 2px solid #ffcc66;
+  background: #fff8e1;
+  animation: highlight 1.5s ease-in-out;
+}
+
+/* Clearfix */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* =====================================================
+   Video
+===================================================== */
+video {
+  width: 100%;
+  max-height: 100vh;
+  background: #000;
+}
+
+/* =====================================================
+   Header-Bar (alle Seiten)
+===================================================== */
+.header-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Kein Strich auf Videoseiten */
+.header-bar.video-page {
+  border-bottom: none;
+  padding-bottom: 10px; /* weniger Platz verschenkt */
+}
+
+/* Links / Buttons */
+.header-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0066cc;
+  white-space: nowrap;
+}
+
+.header-bar a:hover {
+  color: #004999;
+  text-decoration: underline;
+}
+
+/* Titel */
+.header-bar .title,
+.header-bar .center {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: clamp(18px, 2.5vw, 24px);
+}
+
+/* Buttons / Hinweise */
+.header-bar .help-btn,
+.header-bar .toggle-btn,
+.header-bar .mute-hint {
+  font-size: 0.9em;
+  padding: 4px 8px;
+  background: transparent;
+  color: #0066cc;
+  border-radius: 4px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+/* Der Ton-Button Grundstil */
+#unmute-btn {
+  background: #28a745; /* Ein freundliches Grün passt gut zu 'Ton an' */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+  animation: pulse-green 2s infinite;
+}
+
+/* Die Puls-Animation */
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
+}
+
+/* =====================================================
+   Main Content
+===================================================== */
+main {
+  line-height: 1.6;
+  font-size: clamp(16px, 2vw, 20px);
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+main h2 {
+  font-size: clamp(22px, 4vw, 32px);
+  margin-bottom: 20px;
+}
+
+main h3 {
+  margin-top: 30px;
+}
+
+/* Bilder */
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+/* =====================================================
+   CSS Lightbox (ohne JS)
+===================================================== */
+.browser-images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.browser-images img {
+  max-width: 220px;
+  cursor: zoom-in;
+}
+
+/* Lightbox Overlay */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+}
+
+.lightbox:target {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 92%;
+  max-height: 92%;
+}
+
+.lightbox .bg {
+  position: absolute;
+  inset: 0;
+}
+
+.lightbox .prev,
+.lightbox .next {
+  position: absolute;
+  top: 50%;
+  font-size: 56px;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-50%);
+}
+
+.lightbox .prev {
+  left: 0;
+}
+.lightbox .next {
+  right: 0;
+}
+
+/* Mobile Anpassungen */
+@media (max-width: 600px) {
+  .browser-images img {
+    max-width: 100%;
+  }
+  .lightbox .prev,
+  .lightbox .next {
+    font-size: 36px;
+    padding: 10px;
+  }
+}
+
+/* =====================================================
+   Kapitelanzeige
+===================================================== */
+
+#video-wrapper {
+  position: relative;
+  width: 100%;
+  /* WICHTIG: Fensterhöhe minus Header-Höhe (60px) verhindert Scrollen */
+  height: calc(100vh - 60px);
+  margin: 0 auto;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player {
+  width: 100%;
+  height: 100%;
+  /* contain sorgt dafür, dass das Video nie abgeschnitten wird */
+  object-fit: contain;
+  display: block;
+}
+
+/* --- KAPITEL LISTE --- */
+#chapter-nav {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  /* Dynamischer Abstand, damit die Liste nicht in die Controls ragt */
+  bottom: clamp(60px, 15%, 120px);
+  width: fit-content;
+  max-width: 80vw;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  padding: 0 15px;
+  z-index: 100;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+#chapter-nav::-webkit-scrollbar {
+  display: none;
+}
+
+#chapter-nav.hidden {
+  transform: translateX(110%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* --- TOGGLE BUTTON --- */
+#toggle-chapters {
+  position: absolute;
+  /* Nutzt vh-Einheit, damit er auf großen Schirmen stabil bleibt */
+  bottom: 5%;
+  right: 3%;
+  width: clamp(2.4rem, 4vh, 60px);
+  height: clamp(2.4rem, 4vh, 60px);
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  z-index: 150;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: move; /* Zeigt das Verschieben-Symbol */
+  touch-action: none; /* Verhindert Scrollen der Seite beim Schieben am Handy */
+  user-select: none; /* Verhindert Textmarkierung beim Ziehen */
+  -webkit-touch-callout: none; /* Verhindert das Kontextmenü (Download/Speichern) */
+}
+
+/* Feedback beim Draufklicken/Schieben */
+#toggle-chapters:active {
+  cursor: grabbing; /* "Zupacken"-Symbol während des Schiebens */
+  background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+#video-wrapper:hover #toggle-chapters {
+  opacity: 1;
+}
+#toggle-chapters svg {
+  fill: #fff;
+  width: 60%;
+}
+
+/* --- KAPITEL BUTTON DESIGN --- */
+.chapter-btn {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  min-height: 2.2rem;
+  padding: 0.5rem 1rem;
+  /* Schriftgröße skaliert mit Fensterhöhe für Zero-Scroll */
+  font-size: clamp(12px, 1.5vh, 18px);
+  cursor: pointer;
+}
+
+.chapter-btn strong {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 12px;
+  font-family: monospace;
+  color: #ffcc66;
+}
+
+.chapter-btn.active {
+  background: rgba(255, 204, 102, 0.25);
+  border-color: #ffcc66;
+}
+
+/* --- VOLLBILD-OPTIMIERUNG (Erzwingt Overlay über Video) --- */
+:fullscreen #chapter-nav,
+:-webkit-full-screen #chapter-nav,
+:fullscreen #toggle-chapters,
+:-webkit-full-screen #toggle-chapters {
+  z-index: 2147483647 !important;
+}
