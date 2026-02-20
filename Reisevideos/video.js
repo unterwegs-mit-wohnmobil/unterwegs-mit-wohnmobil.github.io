@@ -3,6 +3,16 @@
    ===================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
+  // ZUERST die Overlay-Elemente definieren
+  const overlay = document.getElementById("thumbs-overlay");
+  const contentTarget = document.getElementById("thumbs-content-target");
+  const closeOverlayBtn = document.getElementById("close-overlay");
+  const scrollToTopBtn = document.getElementById("scroll-to-top");
+
+  // JETZT das System aktivieren
+  if (overlay) {
+    overlay.classList.add("js-enabled");
+  }
   // --- KONFIGURATION ---
   const DISABLE_ON_SAFARI = false; // Auf 'false' setzen, um Kapitel in Safari zu erlauben
 
@@ -220,46 +230,149 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // --- 5. DYNAMISCHER SPRUNG ZU DEN THUMBS (PUNKTGENAU) ---
-  const thumbsLink = document.getElementById("thumbs-link");
+  /* --- 5. SPA OVERLAY & AUTO-SCROLL LOGIK --- */
+ // die werden schon oben geladen
+ // const overlay = document.getElementById("thumbs-overlay");
+ // const contentTarget = document.getElementById("thumbs-content-target");
+ // const closeOverlayBtn = document.getElementById("close-overlay");
+ // const scrollToTopBtn = document.getElementById("scroll-to-top"); // <-- HIER DAZU
 
-  if (thumbsLink && video) {
-    const rawData = video.dataset.timeline;
-    console.log("Timeline-Daten im Attribut vorhanden:", rawData ? "Ja (" + rawData.length + " Zeichen)" : "Nein");
+  // --- HIER DIE FEHLENDE LOGIK EINFÜGEN ---
+  if (overlay && scrollToTopBtn) {
+    // 1. Button anzeigen oder verstecken beim Scrollen
+    overlay.addEventListener("scroll", () => {
+      if (overlay.scrollTop > 300) {
+        scrollToTopBtn.classList.add("is-visible");
+      } else {
+        scrollToTopBtn.classList.remove("is-visible");
+      }
+    });
 
-    const timelineData = rawData ? JSON.parse(rawData) : null;
+    // 2. Sanft nach oben gleiten beim Klick
+    scrollToTopBtn.addEventListener("click", () => {
+      overlay.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  }
 
-    if (timelineData) {
-      console.log("Timeline-JSON erfolgreich geparst. Einträge:", Object.keys(timelineData).length);
+  // Alle Links suchen, die zur Thumbs-Seite führen (Icon + Text)
+  const thumbTriggers = document.querySelectorAll('a[href*="_thumbs.html"]');
 
-      thumbsLink.addEventListener("click", (e) => {
-        const now = video.currentTime;
-        console.log("Button 'Bilder' geklickt. Aktuelle Videozeit:", now.toFixed(3));
+  thumbTriggers.forEach((trigger) => {
+    trigger.addEventListener("click", async (e) => {
+      e.preventDefault();
 
-        let bestMatch = "";
-        let matchTime = "";
+      // --- NEU: Video pausieren, wenn das Overlay geöffnet wird ---
+      if (video) video.pause();
 
-        const times = Object.keys(timelineData)
-          .map(Number)
-          .sort((a, b) => a - b);
+      const url = trigger.getAttribute("href");
+      const shouldScroll = trigger.id === "thumbs-link";
 
-        for (let t of times) {
-          if (t <= now) {
-            matchTime = t.toFixed(3);
-            bestMatch = timelineData[matchTime];
+      try {
+        const response = await fetch(url);
+        const htmlText = await response.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlText, "text/html");
+
+        // Nur die Galerie laden (ohne Header der Thumbs-Seite)
+        const galleryContent = doc.querySelector(".clearfix");
+        contentTarget.innerHTML = galleryContent ? galleryContent.outerHTML : doc.body.innerHTML;
+
+        overlay.classList.add("is-visible");
+        document.body.classList.add("overlay-open");
+
+        // --- POSITIONIERUNG & SCROLL-MANAGEMENT ---
+        // Wir geben der Grafikkarte einen Moment (50ms) Vorsprung für das Fade-In
+        setTimeout(() => {
+          if (shouldScroll) {
+            const currentTime = video.currentTime;
+            const timelineData = video.dataset.timeline ? JSON.parse(video.dataset.timeline) : null;
+
+            if (timelineData) {
+              let bestMatchId = "";
+              const times = Object.keys(timelineData)
+                .map(Number)
+                .sort((a, b) => a - b);
+
+              for (let t of times) {
+                if (t <= currentTime) {
+                  bestMatchId = timelineData[t.toFixed(3)];
+                } else {
+                  break;
+                }
+              }
+
+              if (bestMatchId) {
+                const targetEl = contentTarget.querySelector(`#${bestMatchId}`);
+                if (targetEl) {
+                  targetEl.scrollIntoView({ behavior: "smooth", block: "center" });
+                  targetEl.classList.add("spa-highlight");
+                }
+              }
+            }
           } else {
-            break;
+            // Auch das Zurücksetzen nach oben passiert jetzt erst nach 50ms,
+            // was Flackern während des Einblendens verhindert.
+            overlay.scrollTop = 0;
+          }
+        }, 300);
+
+        setupInternalLinks();
+      } catch (err) {
+        console.warn("Fetch fehlgeschlagen, wechsle normal zur Seite:", err);
+        window.location.href = url;
+      }
+    });
+  });
+
+  // Event-Listener für den Schließen-Button (das "X")
+  if (closeOverlayBtn) {
+    closeOverlayBtn.addEventListener("click", closeOverlay);
+  }
+
+  function setupInternalLinks() {
+    const links = contentTarget.querySelectorAll("a");
+    links.forEach((link) => {
+      link.addEventListener("click", (evt) => {
+        const href = link.getAttribute("href");
+        if (href && href.includes("?t=")) {
+          evt.preventDefault();
+          const time = parseFloat(href.split("?t=")[1]);
+          if (!isNaN(time)) {
+            video.currentTime = time;
+            // Video springt zur Zeit UND spielt los
+            video.play().catch((err) => console.log("Play blockiert:", err));
+            closeOverlay();
           }
         }
-
-        if (bestMatch) {
-          e.preventDefault();
-          e.stopPropagation();
-          const targetBase = thumbsLink.getAttribute("href").split("#")[0];
-          const finalUrl = targetBase + "#" + bestMatch;
-          window.location.assign(finalUrl);
-        }
       });
+    });
+  }
+
+  function closeOverlay() {
+    if (overlay) {
+      // Die Klasse entfernen (startet das Ausblenden)
+      overlay.classList.remove("is-visible");
+
+      // Scroll-Button sofort verstecken, damit er beim nächsten Öffnen nicht "geisterhaft" da ist
+      if (scrollToTopBtn) {
+        scrollToTopBtn.classList.remove("is-visible");
+      }
+      document.body.classList.remove("overlay-open");
+
+      // Timeout warten (0.3s), bis die Animation fertig ist,
+      // bevor wir den Inhalt leeren
+      setTimeout(() => {
+        if (!overlay.classList.contains("is-visible")) {
+          contentTarget.innerHTML = "";
+        }
+      }, 300);
+
+      if (video) {
+        video.play().catch((err) => console.log("Play blockiert:", err));
+      }
     }
   }
   // --- 6. HELPER ---
