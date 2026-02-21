@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const overlay = document.getElementById("thumbs-overlay");
   const contentTarget = document.getElementById("thumbs-content-target");
   const closeOverlayBtn = document.getElementById("close-overlay");
-  const scrollToTopBtn = document.getElementById("scroll-to-top");
 
   // JETZT das System aktivieren
   if (overlay) {
@@ -231,32 +230,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* --- 5. SPA OVERLAY & AUTO-SCROLL LOGIK --- */
- // die werden schon oben geladen
- // const overlay = document.getElementById("thumbs-overlay");
- // const contentTarget = document.getElementById("thumbs-content-target");
- // const closeOverlayBtn = document.getElementById("close-overlay");
- // const scrollToTopBtn = document.getElementById("scroll-to-top"); // <-- HIER DAZU
-
-  // --- HIER DIE FEHLENDE LOGIK EINFÜGEN ---
-  if (overlay && scrollToTopBtn) {
-    // 1. Button anzeigen oder verstecken beim Scrollen
-    overlay.addEventListener("scroll", () => {
-      if (overlay.scrollTop > 300) {
-        scrollToTopBtn.classList.add("is-visible");
-      } else {
-        scrollToTopBtn.classList.remove("is-visible");
-      }
-    });
-
-    // 2. Sanft nach oben gleiten beim Klick
-    scrollToTopBtn.addEventListener("click", () => {
-      overlay.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    });
-  }
-
   // Alle Links suchen, die zur Thumbs-Seite führen (Icon + Text)
   const thumbTriggers = document.querySelectorAll('a[href*="_thumbs.html"]');
 
@@ -305,7 +278,7 @@ document.addEventListener("DOMContentLoaded", () => {
               }
 
               if (bestMatchId) {
-                const targetEl = contentTarget.querySelector(`#${bestMatchId}`);
+                const targetEl = contentTarget.querySelector(`[id="${bestMatchId}"]`);
                 if (targetEl) {
                   targetEl.scrollIntoView({ behavior: "smooth", block: "center" });
                   targetEl.classList.add("spa-highlight");
@@ -315,7 +288,7 @@ document.addEventListener("DOMContentLoaded", () => {
           } else {
             // Auch das Zurücksetzen nach oben passiert jetzt erst nach 50ms,
             // was Flackern während des Einblendens verhindert.
-            overlay.scrollTop = 0;
+            contentTarget.scrollTop = 0;
           }
         }, 300);
 
@@ -331,6 +304,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (closeOverlayBtn) {
     closeOverlayBtn.addEventListener("click", closeOverlay);
   }
+
+  // --- 6. HELPER ---
 
   function setupInternalLinks() {
     const links = contentTarget.querySelectorAll("a");
@@ -353,29 +328,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function closeOverlay() {
     if (overlay) {
-      // Die Klasse entfernen (startet das Ausblenden)
       overlay.classList.remove("is-visible");
-
-      // Scroll-Button sofort verstecken, damit er beim nächsten Öffnen nicht "geisterhaft" da ist
-      if (scrollToTopBtn) {
-        scrollToTopBtn.classList.remove("is-visible");
-      }
       document.body.classList.remove("overlay-open");
 
-      // Timeout warten (0.3s), bis die Animation fertig ist,
-      // bevor wir den Inhalt leeren
       setTimeout(() => {
         if (!overlay.classList.contains("is-visible")) {
           contentTarget.innerHTML = "";
+          // WICHTIG: Auch den Scrollzustand für das nächste Mal zurücksetzen
+          contentTarget.scrollTop = 0;
         }
-      }, 300);
+      }, 500); // Entsprechend deiner CSS-Transition-Zeit (0.5s)
 
       if (video) {
         video.play().catch((err) => console.log("Play blockiert:", err));
       }
     }
   }
-  // --- 6. HELPER ---
   function renderButtons(chapters) {
     nav.innerHTML = "";
     chapters.forEach((ch) => {

@@ -479,42 +479,65 @@ main img {
   display: none; /* Im Overlay brauchen wir diesen Link nicht */
 }
 
-/* Schließen-Button */
 #close-overlay {
-  position: absolute; /* Innerhalb des fixierten Overlays reicht absolute */
-  top: 20px;
-  right: 25px; /* Etwas weiter weg vom Scrollbalken */
-  z-index: 9999; /* Über allem anderen */
-  width: 44px;
-  height: 44px;
-  background: rgba(51, 51, 51, 0.9); /* Leicht transparent für edle Optik */
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  font-size: 32px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  -webkit-tap-highlight-color: transparent; /* Verhindert grauen Kasten auf iPhone */
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 9999;
+    width: 48px;  /* Etwas größer für bessere Präsenz */
+    height: 48px;
+    
+    /* Dunkel, aber mit Glas-Effekt */
+    background: rgba(30, 30, 30, 0.85); 
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    
+    /* DER SCHWEBE-EFFEKT:
+       1. Ein tiefer, weicher Schatten nach unten
+       2. Ein sehr dezenter innerer Schein oben (Highlight) */
+    box-shadow: 
+        0 10px 25px rgba(0, 0, 0, 0.5), 
+        inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    
+    /* GLASSMORPHISM: Lässt die Bilder dahinter leicht verschwimmen */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Sanfte Bewegung bei Interaktion */
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
+
+/* Hover-Effekt für Desktop-Browser */
+#close-overlay:hover {
+    transform: translateY(-2px); /* Er schwebt beim Drüberfahren noch ein Stück höher */
+    background: rgba(40, 40, 40, 0.95);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Klick-Effekt */
 #close-overlay:active {
-  transform: scale(0.9); /* Kleines Feedback beim Tippen */
+    transform: translateY(1px); /* Drückt sich beim Klick leicht ein */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 #thumbs-content-target {
-  /* WICHTIG: Nur dieser Teil scrollt jetzt */
   height: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-
-  padding: 15px;
-  padding-top: 80px; /* Viel Platz lassen für den fixierten Button */
+  padding: 20px 25px 20px 20px; /* Rechts etwas mehr Luft für den Scrollbalken */
+  padding-top: 80px;
   box-sizing: border-box;
   background: #ffffff;
-  width: 100%;
 }
+
 #thumbs-content-target .clearfix::after {
   content: "";
   display: table;

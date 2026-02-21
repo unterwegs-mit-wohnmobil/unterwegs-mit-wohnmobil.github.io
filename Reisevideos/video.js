@@ -288,7 +288,7 @@ document.addEventListener("DOMContentLoaded", () => {
           } else {
             // Auch das Zurücksetzen nach oben passiert jetzt erst nach 50ms,
             // was Flackern während des Einblendens verhindert.
-            overlay.scrollTop = 0;
+            contentTarget.scrollTop = 0;
           }
         }, 300);
 
@@ -304,6 +304,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (closeOverlayBtn) {
     closeOverlayBtn.addEventListener("click", closeOverlay);
   }
+
+  // --- 6. HELPER ---
 
   function setupInternalLinks() {
     const links = contentTarget.querySelectorAll("a");
@@ -326,25 +328,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function closeOverlay() {
     if (overlay) {
-      // Die Klasse entfernen (startet das Ausblenden)
       overlay.classList.remove("is-visible");
-
       document.body.classList.remove("overlay-open");
 
-      // Timeout warten (0.3s), bis die Animation fertig ist,
-      // bevor wir den Inhalt leeren
       setTimeout(() => {
         if (!overlay.classList.contains("is-visible")) {
           contentTarget.innerHTML = "";
+          // WICHTIG: Auch den Scrollzustand für das nächste Mal zurücksetzen
+          contentTarget.scrollTop = 0;
         }
-      }, 300);
+      }, 500); // Entsprechend deiner CSS-Transition-Zeit (0.5s)
 
       if (video) {
         video.play().catch((err) => console.log("Play blockiert:", err));
       }
     }
   }
-  // --- 6. HELPER ---
   function renderButtons(chapters) {
     nav.innerHTML = "";
     chapters.forEach((ch) => {
