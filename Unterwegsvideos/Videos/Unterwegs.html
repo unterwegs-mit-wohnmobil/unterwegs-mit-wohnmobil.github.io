@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Reisevideos WebApp">
+<meta name="apple-mobile-web-app-title" content="Unterwegs WebApp">
 <title>Unterwegs</title>
 
 <link rel="stylesheet" href="../style.css">
@@ -24,6 +24,11 @@
 <div class="header-bar video-page">
   
   <div class="title">Unterwegs</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
   <a href="Unterwegs_thumbs.html" title="Galerie oben">🖼</a><a id="thumbs-link" href="Unterwegs_thumbs.html" title="Galerie Position wie Video">Bilder</a>
   
 </div>
@@ -43,9 +48,7 @@
 
 <div id="thumbs-overlay">
     <button id="close-overlay" title="Galerie schließen">&times;</button>
-    <button id="scroll-to-top" title="Nach oben">↑</button>
-    <div id="thumbs-content-target">
-        </div>
+    <div id="thumbs-content-target"></div>
 </div>
 
 <script src="../video.js"></script>

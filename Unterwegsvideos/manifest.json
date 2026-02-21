@@ -1,6 +1,6 @@
 {
-  "name": "Reisevideos App",
-  "short_name": "Reisevideos",
+  "name": "Unterwegs App",
+  "short_name": "Unterwegs",
   "start_url": "./index.html",
   "scope": ".",
   "display": "standalone",
