@@ -555,26 +555,40 @@ main img {
 }
 
 /* =====================================================
-   RESPONSIVE ANPASSUNGEN (Galerie-Layout)
+   RESPONSIVE ANPASSUNGEN (Galerie-Layout im Overlay)
 ===================================================== */
 
-/* Standard für große Bildschirme (z.B. 4 Spalten) */
+/* Standard für sehr große Bildschirme (8 Spalten wie im Original) */
 #thumbs-content-target .responsive {
   float: left;
-  width: 24.99%;
+  width: 12.5%; /* Zurück auf 8 Spalten */
   padding: 5px;
   box-sizing: border-box;
 }
 
-/* Tablets (z.B. 2 oder 3 Spalten) */
-@media only screen and (max-width: 1024px) {
+/* Große Bildschirme / Laptops (5 Spalten) */
+@media only screen and (max-width: 1400px) {
+  #thumbs-content-target .responsive {
+    width: 20%;
+  }
+}
+
+/* Mittlere Bildschirme / Tablets quer (4 Spalten) */
+@media only screen and (max-width: 1200px) {
+  #thumbs-content-target .responsive {
+    width: 25%;
+  }
+}
+
+/* Tablets hochkant (3 Spalten) */
+@media only screen and (max-width: 950px) {
   #thumbs-content-target .responsive {
     width: 33.33%;
   }
 }
 
-/* Smartphones (2 Spalten für bessere Sichtbarkeit) */
-@media only screen and (max-width: 600px) {
+/* Smartphones (2 Spalten) */
+@media only screen and (max-width: 700px) {
   #thumbs-content-target .responsive {
     width: 50%;
     padding: 3px;

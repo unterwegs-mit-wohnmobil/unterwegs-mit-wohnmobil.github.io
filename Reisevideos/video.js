@@ -68,93 +68,100 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
   // --- 1. DRAG & CLICK LOGIK ---
-  // Hier geht es jetzt ganz normal weiter...
-  // --- 1. DRAG & CLICK LOGIK ---
   let isDragging = false;
   let startX, startY;
   const moveThreshold = 5;
 
-  // 1. Position aus der Session laden
-  const savedPos = sessionStorage.getItem("chapterBtnPos");
-  if (savedPos && toggleBtn) {
-    const pos = JSON.parse(savedPos);
-    toggleBtn.style.left = pos.x;
-    toggleBtn.style.top = pos.y;
-    toggleBtn.style.right = "auto";
-    toggleBtn.style.bottom = "auto";
-  }
+  // Prüfen, ob ein Kapitel-Track im Video vorhanden ist
+  const hasChapters = video.querySelector('track[kind="chapters"]');
 
-  if (toggleBtn) {
-    const onStart = (e) => {
-      isDragging = false;
-      startX = e.type.includes("touch") ? e.touches[0].clientX : e.clientX;
-      startY = e.type.includes("touch") ? e.touches[0].clientY : e.clientY;
+  if (!hasChapters && toggleBtn) {
+    // Falls keine Kapitel da sind: Button komplett verstecken und Skript hier abbrechen
+    toggleBtn.style.display = "none";
+  } else if (toggleBtn) {
+    // NUR WENN Kapitel da sind, führen wir deine Logik aus:
+    // 1. Position aus der Session laden
+    const savedPos = sessionStorage.getItem("chapterBtnPos");
+    if (savedPos && toggleBtn) {
+      const pos = JSON.parse(savedPos);
+      toggleBtn.style.left = pos.x;
+      toggleBtn.style.top = pos.y;
+      toggleBtn.style.right = "auto";
+      toggleBtn.style.bottom = "auto";
+    }
 
-      document.addEventListener(e.type.includes("touch") ? "touchmove" : "mousemove", onMove);
-      document.addEventListener(e.type.includes("touch") ? "touchend" : "mouseup", onEnd);
-    };
+    if (toggleBtn) {
+      const onStart = (e) => {
+        isDragging = false;
+        startX = e.type.includes("touch") ? e.touches[0].clientX : e.clientX;
+        startY = e.type.includes("touch") ? e.touches[0].clientY : e.clientY;
 
-    const onMove = (e) => {
-      const x = e.type.includes("touch") ? e.touches[0]?.clientX || 0 : e.clientX;
-      const y = e.type.includes("touch") ? e.touches[0]?.clientY || 0 : e.clientY;
+        document.addEventListener(e.type.includes("touch") ? "touchmove" : "mousemove", onMove);
+        document.addEventListener(e.type.includes("touch") ? "touchend" : "mouseup", onEnd);
+      };
 
-      if (Math.abs(x - startX) > moveThreshold || Math.abs(y - startY) > moveThreshold) {
-        isDragging = true;
-        const rect = wrapper.getBoundingClientRect();
+      const onMove = (e) => {
+        const x = e.type.includes("touch") ? e.touches[0]?.clientX || 0 : e.clientX;
+        const y = e.type.includes("touch") ? e.touches[0]?.clientY || 0 : e.clientY;
 
-        let xPct = ((x - rect.left - toggleBtn.offsetWidth / 2) / rect.width) * 100;
-        let yPct = ((y - rect.top - toggleBtn.offsetHeight / 2) / rect.height) * 100;
+        if (Math.abs(x - startX) > moveThreshold || Math.abs(y - startY) > moveThreshold) {
+          isDragging = true;
+          const rect = wrapper.getBoundingClientRect();
 
-        // Sicherheitsränder (0% bis ca. 95%)
-        xPct = Math.max(0, Math.min(xPct, 96));
-        yPct = Math.max(0, Math.min(yPct, 94));
+          let xPct = ((x - rect.left - toggleBtn.offsetWidth / 2) / rect.width) * 100;
+          let yPct = ((y - rect.top - toggleBtn.offsetHeight / 2) / rect.height) * 100;
 
-        toggleBtn.style.left = xPct + "%";
-        toggleBtn.style.top = yPct + "%";
-        toggleBtn.style.right = "auto";
-        toggleBtn.style.bottom = "auto";
-      }
-    };
+          // Sicherheitsränder (0% bis ca. 95%)
+          xPct = Math.max(0, Math.min(xPct, 96));
+          yPct = Math.max(0, Math.min(yPct, 94));
 
-    const onEnd = () => {
-      document.removeEventListener("mousemove", onMove);
-      document.removeEventListener("mouseup", onEnd);
-      document.removeEventListener("touchmove", onMove);
-      document.removeEventListener("touchend", onEnd);
+          toggleBtn.style.left = xPct + "%";
+          toggleBtn.style.top = yPct + "%";
+          toggleBtn.style.right = "auto";
+          toggleBtn.style.bottom = "auto";
+        }
+      };
 
-      if (isDragging) {
-        sessionStorage.setItem(
-          "chapterBtnPos",
-          JSON.stringify({
-            x: toggleBtn.style.left,
-            y: toggleBtn.style.top,
-          }),
-        );
-      } else {
-        const isHidden = nav.classList.toggle("hidden");
-        nav.style.display = isHidden ? "none" : "flex";
-      }
-    };
+      const onEnd = () => {
+        document.removeEventListener("mousemove", onMove);
+        document.removeEventListener("mouseup", onEnd);
+        document.removeEventListener("touchmove", onMove);
+        document.removeEventListener("touchend", onEnd);
 
-    toggleBtn.addEventListener("mousedown", onStart);
-    toggleBtn.addEventListener("touchstart", onStart, { passive: true });
+        if (isDragging) {
+          sessionStorage.setItem(
+            "chapterBtnPos",
+            JSON.stringify({
+              x: toggleBtn.style.left,
+              y: toggleBtn.style.top,
+            }),
+          );
+        } else {
+          const isHidden = nav.classList.toggle("hidden");
+          nav.style.display = isHidden ? "none" : "flex";
+        }
+      };
 
-    // --- DOPPELKLICK RESET ---
-    toggleBtn.addEventListener("dblclick", (e) => {
-      e.preventDefault();
-      // 1. Speicher löschen
-      sessionStorage.removeItem("chapterBtnPos");
+      toggleBtn.addEventListener("mousedown", onStart);
+      toggleBtn.addEventListener("touchstart", onStart, { passive: true });
 
-      // 2. Position im CSS zurücksetzen (auf die Werte aus deinem Stylesheet)
-      toggleBtn.style.left = "auto";
-      toggleBtn.style.top = "auto";
-      toggleBtn.style.right = "3%";
-      toggleBtn.style.bottom = "5%";
+      // --- DOPPELKLICK RESET ---
+      toggleBtn.addEventListener("dblclick", (e) => {
+        e.preventDefault();
+        // 1. Speicher löschen
+        sessionStorage.removeItem("chapterBtnPos");
 
-      // Optional: Visuelles Feedback (kurzes Aufblinken)
-      toggleBtn.style.opacity = "0.5";
-      setTimeout(() => (toggleBtn.style.opacity = "1"), 200);
-    });
+        // 2. Position im CSS zurücksetzen (auf die Werte aus deinem Stylesheet)
+        toggleBtn.style.left = "auto";
+        toggleBtn.style.top = "auto";
+        toggleBtn.style.right = "3%";
+        toggleBtn.style.bottom = "5%";
+
+        // Optional: Visuelles Feedback (kurzes Aufblinken)
+        toggleBtn.style.opacity = "0.5";
+        setTimeout(() => (toggleBtn.style.opacity = "1"), 200);
+      });
+    }
   }
 
   const closeMenu = () => {
@@ -230,54 +237,55 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* --- 5. SPA OVERLAY & AUTO-SCROLL LOGIK --- */
-  // Alle Links suchen, die zur Thumbs-Seite führen (Icon + Text)
-  const thumbTriggers = document.querySelectorAll('a[href*="_thumbs.html"]');
-
-  thumbTriggers.forEach((trigger) => {
+  /* --- FLEXIBLE SPA LOGIK (Bilder & Kapitel) --- */
+  document.querySelectorAll(".spa-link").forEach((trigger) => {
     trigger.addEventListener("click", async (e) => {
       e.preventDefault();
 
-      // --- NEU: Video pausieren, wenn das Overlay geöffnet wird ---
       if (video) video.pause();
 
       const url = trigger.getAttribute("href");
-      const shouldScroll = trigger.id === "thumbs-link";
+
+      // SCHRITT 1: Hier wird entschieden, welche Daten wir nutzen
+      const data = url.toLowerCase().includes("kapitel") ? video.dataset.timelineChapters : video.dataset.timeline;
+      const timelineData = JSON.parse(data || "{}");
 
       try {
         const response = await fetch(url);
         const htmlText = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(htmlText, "text/html");
+        const doc = new DOMParser().parseFromString(htmlText, "text/html");
 
-        // Nur die Galerie laden (ohne Header der Thumbs-Seite)
         const galleryContent = doc.querySelector(".clearfix");
         contentTarget.innerHTML = galleryContent ? galleryContent.outerHTML : doc.body.innerHTML;
 
         overlay.classList.add("is-visible");
         document.body.classList.add("overlay-open");
 
-        // --- POSITIONIERUNG & SCROLL-MANAGEMENT ---
-        // Wir geben der Grafikkarte einen Moment (50ms) Vorsprung für das Fade-In
-        setTimeout(() => {
-          if (shouldScroll) {
-            const currentTime = video.currentTime;
-            const timelineData = video.dataset.timeline ? JSON.parse(video.dataset.timeline) : null;
+        // SCHRITT 2: Das Scrollen (Innerhalb deines Timeouts)
+        // Nur scrollen, wenn es NICHT der "Galerie oben" Link ist
+        const shouldScroll = trigger.getAttribute("title") !== "Galerie oben";
 
-            if (timelineData) {
+        if (shouldScroll) {
+          setTimeout(() => {
+            const currentTime = video.currentTime;
+
+            if (timelineData && Object.keys(timelineData).length > 0) {
               let bestMatchId = "";
               const times = Object.keys(timelineData)
                 .map(Number)
                 .sort((a, b) => a - b);
 
               for (let t of times) {
-                if (t <= currentTime) {
+                // + 0.1 Sekunden Puffer fängt kleine Ungenauigkeiten ab
+                if (t <= currentTime + 0.1) {
                   bestMatchId = timelineData[t.toFixed(3)];
-                } else {
-                  break;
-                }
+                } else break;
               }
 
               if (bestMatchId) {
+                // WICHTIG: Erst alle alten Markierungen entfernen
+                contentTarget.querySelectorAll(".spa-highlight").forEach((el) => el.classList.remove("spa-highlight"));
+
                 const targetEl = contentTarget.querySelector(`[id="${bestMatchId}"]`);
                 if (targetEl) {
                   targetEl.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -285,21 +293,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
               }
             }
-          } else {
-            // Auch das Zurücksetzen nach oben passiert jetzt erst nach 50ms,
-            // was Flackern während des Einblendens verhindert.
-            contentTarget.scrollTop = 0;
-          }
-        }, 300);
+          }, 300);
+        }
 
-        setupInternalLinks();
+        if (typeof setupInternalLinks === "function") setupInternalLinks();
       } catch (err) {
         console.warn("Fetch fehlgeschlagen, wechsle normal zur Seite:", err);
         window.location.href = url;
       }
     });
   });
-
   // Event-Listener für den Schließen-Button (das "X")
   if (closeOverlayBtn) {
     closeOverlayBtn.addEventListener("click", closeOverlay);
