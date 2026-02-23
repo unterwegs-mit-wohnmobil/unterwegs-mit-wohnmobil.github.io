@@ -4,5 +4,4 @@ $$$---Kein_Back_Button_auf_oberster_Ebene$$$
 $$$UrlBilder$$$	https://reiseberichte.de.cool/htaccess/2025_10_Sauerland/
 $$$UrlVideos$$$	https://unterwegs-mit-wohnmobil.github.io/medien/Reiseberichte/2025_10_Sauerland/
 $$$VerzVideos$$$	github/Medien/Reiseberichte/2025_10_Sauerland/
-VuOqH_iPh16e_0060	Bei Bottenhorn zwischen Marburg und Dillenburg	Regenbogen über Bottenhorn	16	
-XcPkV_iPh16e_0064	Die Externsteine bei Horn nordöstlich von Paderborn	Die Externsteine	14	
+2026-02-20-07-08-53			21	

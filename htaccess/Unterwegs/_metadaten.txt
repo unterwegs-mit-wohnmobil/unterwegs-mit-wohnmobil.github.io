@@ -1,8 +1,19 @@
-VuJgD_iPh16e_4905	+50.520531	+8.8210972	180	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 12.6, ISO: 25, f: 1.6, t: 1/613, F: 26 mm
-VuJvO_iPh16e_4908	+50.520172	+8.820225	180	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 12.9, ISO: 20, f: 1.6, t: 1/602, F: 26 mm
-VuOqH_iPh16e_0060	+50.80029	+8.48029	0	iPhone 16e
-VvFbV_M50_5074	+50.800787	+8.4802867	492	Canon EOS M50, EF-M15-45mm f/3.5-6.3 IS STM, Mehrfeldmessung, Lichtwert: 2.0, ISO: 12800, f: 5.0, t: 1/20, F: 21.0 mm
-WhWhO_iPh16e_4915	+50.995261	+8.2565694	487	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Spotmessung, Programmautomatik, Lichtwert: 12.5, ISO: 20, f: 1.6, t: 1/455, F: 26 mm
-WrPqH_iPh16e_4918	+51.118861	+8.6072417	496	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 11.7, ISO: 32, f: 1.6, t: 1/408, F: 26 mm
-XcPkV_iPh16e_0064	+51.86989	+8.9171	0	iPhone 16e
-XcPsR_iPh16e_4950	+51.869972	+8.9196417	252	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 12.5, ISO: 20, f: 1.6, t: 1/455, F: 36 mm
+000_2026-01-09-12-36-37	+48.383144	+10.82155	521	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.9, ISO: 20, f: 1.6, t: 1/1145, F: 26 mm
+2026-01-09-12-36-37	+48.383144	+10.82155	521	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.9, ISO: 20, f: 1.6, t: 1/1145, F: 26 mm
+2026-01-11-07-27-18	+48.386228	+10.830222	491	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 4.3, ISO: 400, f: 1.6, t: 1/30, F: 43 mm
+2026-01-11-07-42-27	+48.384	+10.821794	523	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 4.7, ISO: 250, f: 1.6, t: 1/25, F: 48 mm
+2026-01-25-07-37-53	+48.384267	+10.823844	519	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 3.7, ISO: 500, f: 1.6, t: 1/25, F: 26 mm
+2026-01-25-07-39-16	+48.384206	+10.823419	520	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 3.7, ISO: 500, f: 1.6, t: 1/25, F: 26 mm
+2026-01-27-12-52-29	+48.383442	+10.821603	522	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 15.8, ISO: 25, f: 1.6, t: 1/5155, F: 26 mm
+2026-01-27-12-54-45	+48.383697	+10.821739	525	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 13.9, ISO: 25, f: 1.6, t: 1/1397, F: 261 mm
+2026-01-29-07-36-47	+48.388072	+10.823011	488	iPad 9, iPad (A16) back camera 3mm f/1.8, Multi-Segment, Programmautomatik, Lichtwert: 6.3, ISO: 250, f: 1.8, t: 1/60, F: 29 mm
+2026-01-29-08-00-50	+48.388156	+10.8229	487	iPad 9, iPad (A16) back camera 3mm f/1.8, Multi-Segment, Programmautomatik, Lichtwert: 7.9, ISO: 80, f: 1.8, t: 1/60, F: 29 mm
+2026-02-20-05-56-47	+48.388078	+10.823028	487	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: -0.3, ISO: 640, f: 1.6, t: 0.5, F: 26 mm
+2026-02-20-05-57-13				
+2026-02-20-06-23-20	+48.388233	+10.823019	486	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 0.7, ISO: 800, f: 1.6, t: 1/5, F: 26 mm
+2026-02-20-06-23-38	+48.388253	+10.823003	486	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: -0.6, ISO: 800, f: 1.6, t: 0.5, F: 26 mm
+2026-02-20-06-40-53	+48.388081	+10.822997	488	iPad 9, iPad (A16) back camera 3mm f/1.8, Multi-Segment, Programmautomatik, Lichtwert: 1.6, ISO: 1600, f: 1.8, t: 1/15, F: 29 mm
+2026-02-20-07-08-13	+48.381133	+10.817192	521	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 7.0, ISO: 125, f: 1.6, t: 1/60, F: 26 mm
+2026-02-20-07-08-53				
+2026-02-20-07-17-41	+48.381497	+10.812508	485	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 8.4, ISO: 80, f: 1.6, t: 1/99, F: 26 mm
+2026-02-20-07-18-05	+48.381439	+10.812383	485	iPhone 16e, iPhone 16e back camera 4.2mm f/1.64, Multi-Segment, Programmautomatik, Lichtwert: 8.4, ISO: 80, f: 1.6, t: 1/98, F: 26 mm
