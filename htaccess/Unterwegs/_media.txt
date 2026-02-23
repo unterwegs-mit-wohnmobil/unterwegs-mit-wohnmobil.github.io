@@ -1,7 +1,0 @@
-$$$---Videos_im_gleichen_Verzeichnis$$$
-$$$---Keine_GPS_Daten$$$
-$$$---Kein_Back_Button_auf_oberster_Ebene$$$
-$$$UrlBilder$$$	https://reiseberichte.de.cool/htaccess/2025_10_Sauerland/
-$$$UrlVideos$$$	https://unterwegs-mit-wohnmobil.github.io/medien/Reiseberichte/2025_10_Sauerland/
-$$$VerzVideos$$$	github/Medien/Reiseberichte/2025_10_Sauerland/
-2026-02-20-07-08-53			21	
